@@ -1,0 +1,1 @@
+"@united Thanks; might want to fix this line: ""Our Customer Care team is currently responding to most inquiries within 7-10 business days."""
