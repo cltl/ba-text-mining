@@ -1,0 +1,1 @@
+@VirginAmerica current bug on website shows ‘select departure city’ when selecting destination city http://t.co/SLLYIBE2vQ

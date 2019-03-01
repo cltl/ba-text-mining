@@ -1,0 +1,1 @@
+"@JetBlue okay so anything using contactless EMV should work
