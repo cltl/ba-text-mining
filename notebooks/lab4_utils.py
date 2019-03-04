@@ -37,7 +37,7 @@ def load_article_from_nif_file(nif_file):
     for article in articles:
         news_item_obj=NewsItem(
             content=article['string'],
-            identifier=article['articleid'], 
+            identifier=article['articleid'].strip(), 
             dct=article['date']
         )
         query=""" SELECT ?id ?mention ?start ?end ?gold
