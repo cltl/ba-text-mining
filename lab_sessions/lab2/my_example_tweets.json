@@ -1,0 +1,32 @@
+{
+    "1": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "You can't control everything. Sometimes you just need to relax and have faith things will work out. Let go a little and let life happen.",
+        "tweet_url": "https://twitter.com/MotivatinQuotes/status/1094079772399816704"
+    },
+    "2": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "We must always remember how quickly things can change for the better. Nothing is final. Even your current emotions or situations that seem so real are only momentary. It will pass. Everything will get so clear. Stay spiritually and mentally strong. Brighter days are coming.",
+        "tweet_url": "https://twitter.com/MotivatinQuotes/status/1088221190047420416"
+    },
+    "3": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Probably a month or two. Sentry mode became top priority, so pushed that out a bit.",
+        "tweet_url": "https://twitter.com/elonmusk/status/1095929103062974464"
+    },
+    "4": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Yeah, but simpler. Needed for landing burn or engines will suck in a bubble.",
+        "tweet_url": "https://twitter.com/elonmusk/status/1095580873624190977"
+    },
+    "5": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "The electoral college is a disaster for a democracy.",
+        "tweet_url": "https://twitter.com/realDonaldTrump/status/266038556504494082"
+    },
+    "6": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "A disgraceful verdict in the Kate Steinle case! No wonder the people of our Country are so angry with Illegal Immigration.",
+        "tweet_url": "https://twitter.com/realDonaldTrump/status/936437372706836480"
+    }
+}
