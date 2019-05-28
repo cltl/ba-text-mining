@@ -3,3 +3,4 @@
 *.svg
 .DS_Store
 notebooks
+SOLUTION*.ipynb
