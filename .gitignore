@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+*.ps
+*.svg
+.DS_Store
+notebooks
