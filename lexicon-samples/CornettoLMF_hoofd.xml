@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LexicalResource>
+  <GlobalInformation label="Cornetto-LMF"/>
+  <Lexicon languageCoding="ISO 639-2" label="Cornetto2.1" language="nl" owner="VUA">
+    <LexicalEntry id="hoofd-n-3" partOfSpeech="noun">
+      <Lemma writtenForm="hoofd"/>
+      <WordForms>
+        <WordForm writtenForm="hoofd" grammaticalNumber="singular" article="het"/>
+      </WordForms>
+      <Morphology/>
+      <MorphoSyntax pronominalAndGrammaticalGender="n"/>
+      <Sense senseId="r_n-17066" definition="hersens als denkvermogen" synset="d_n-36019" origin="">
+        <SenseRelations><SenseGroup relationType="co-annotation" targetSenseId="r_n-17065"/></SenseRelations><Semantics-noun reference="common" countability="mass" semanticType="nondynamic"/>
+        <Pragmatics/>
+        <SenseExamples>
+          <SenseExample id="53351">
+            <canonicalForm canonicalform="je moet niet alleen met je hoofd werken, maar ook met je hart" expressionType="freeCombination"/>
+            <Syntax_ex>
+              <combiWord lemma="hart" partOfSpeech="noun"/>
+            </Syntax_ex>
+            <Semantics_ex/>
+            <Pragmatics/>
+          </SenseExample>
+          <SenseExample id="51624">
+            <canonicalForm canonicalform="in het hoofd" phraseType="pp" expressionType="grammaticalCollocation"/>
+            <Syntax_ex>
+              <combiWord lemma="in" partOfSpeech="preposition"/>
+            </Syntax_ex>
+            <Semantics_ex/>
+            <Pragmatics/>
+          </SenseExample>
+        </SenseExamples>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="hoofd-n-1" partOfSpeech="noun">
+      <Lemma writtenForm="hoofd"/>
+      <WordForms>
+        <WordForm writtenForm="hoofd" grammaticalNumber="singular" article="het"/>
+        <WordForm writtenForm="hoofden" grammaticalNumber="plural" article="de"/>
+      </WordForms>
+      <Morphology/>
+      <MorphoSyntax pronominalAndGrammaticalGender="n"/>
+      <SyntacticBehaviour/>
+      <Sense senseId="r_n-17064" definition="lichaamsdeel dat op de nek staat" synset="d_n-22889" origin="">
+        <SenseRelations/><Semantics-noun reference="common" countability="count" semanticType="concrother"/>
+        <Pragmatics>
+          <Domains domain="anatomy"/>
+        </Pragmatics>
+        <SenseExamples>
+          <SenseExample id="r_n-17064-1">
+            <canonicalForm canonicalform="een gat in je hoofd vallen" phraseType="vp" expressionType="freeCombination"/>
+            <Syntax_ex>
+              <combiWord lemma="gat" partOfSpeech="noun"/>
+            </Syntax_ex>
+            <Semantics_ex/>
+            <Pragmatics/>
+          </SenseExample>
+          <SenseExample id="r_n-17064-5">
+            <canonicalForm canonicalform="ze hoort al jarenlang stemmen in haar hoofd" expressionType="freeCombination"/>
+            <Syntax_ex>
+              <combiWord lemma="stem" partOfSpeech="noun"/>
+            </Syntax_ex>
+            <Semantics_ex/>
+            <Pragmatics/>
+          </SenseExample>
+          <SenseExample id="r_n-17064-7">
+            <canonicalForm canonicalform="je hoofd om de deur steken" phraseType="vp" expressionType="freeCombination"/>
+            <textualForm textualform="als ik halverwege ben steekt Karel plotseling zijn hoofd om de deur" phraseType="sentence"/>
+            <Syntax_ex>
+              <combiWord lemma="deur" partOfSpeech="noun"/>
+              <combiWord lemma="steken" partOfSpeech="verb"/>
+            </Syntax_ex>
+            <Semantics_ex/>
+            <Pragmatics/>
+          </SenseExample>
+          <SenseExample id="r_n-17064-17">
+            <canonicalForm canonicalform="het hoofd schudden" phraseType="vp" expressionType="lexicalCollocation"/>
+            <Syntax_ex>
+              <combiWord lemma="schudden" partOfSpeech="verb"/>
+            </Syntax_ex>
+            <Semantics_ex definition="teken van afkeuring of om iets te ontkennen">
+              <lex-collocator collocator="oper1"/>
+            </Semantics_ex>
+            <Pragmatics/>
+          </SenseExample>
+          <SenseExample id="r_n-17064-22">
+            <canonicalForm canonicalform="je hoofd stoten" phraseType="vp" expressionType="lexicalCollocation"/>
+            <textualForm textualform="pas op, stoot je hoofd niet!" phraseType="sentence"/>
+            <Syntax_ex>
+              <combiWord lemma="stoten" partOfSpeech="verb"/>
+            </Syntax_ex>
+            <Semantics_ex>
+              <lex-collocator collocator="action"/>
+            </Semantics_ex>
+            <Pragmatics/>
+          </SenseExample>
+        </SenseExamples>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="hoofd-n-2" partOfSpeech="noun">
+      <Lemma writtenForm="hoofd"/>
+      <WordForms>
+        <WordForm writtenForm="hoofd" grammaticalNumber="singular" article="het"/>
+        <WordForm writtenForm="hoofden" grammaticalNumber="plural" article="de"/>
+      </WordForms>
+      <Morphology/>
+      <MorphoSyntax pronominalAndGrammaticalGender="m_f"/>
+      <Sense senseId="r_n-17065" definition="leider" synset="d_n-34121" origin="">
+        <SenseRelations><SenseGroup relationType="co-annotation" targetSenseId="r_n-17066"/></SenseRelations><Semantics-noun reference="common" countability="count" semanticType="human"/>
+        <Pragmatics/>
+        <SenseExamples>
+          <SenseExample id="53582">
+            <canonicalForm canonicalform="het hoofd van de school" phraseType="np" expressionType="freeCombination"/>
+            <Syntax_ex>
+              <combiWord lemma="school" partOfSpeech="noun"/>
+            </Syntax_ex>
+            <Semantics_ex/>
+            <Pragmatics/>
+          </SenseExample>
+          <SenseExample id="53583">
+            <canonicalForm canonicalform="(de paus is) het hoofd van de rooms-katholieke kerk" phraseType="sentence" expressionType="freeCombination"/>
+            <Syntax_ex>
+              <combiWord lemma="kerk" partOfSpeech="noun"/>
+            </Syntax_ex>
+            <Semantics_ex/>
+            <Pragmatics/>
+          </SenseExample>
+          <SenseExample id="53584">
+            <canonicalForm canonicalform="het hoofd van het gezin" phraseType="np" expressionType="freeCombination"/>
+            <Syntax_ex>
+              <combiWord lemma="gezin" partOfSpeech="noun"/>
+            </Syntax_ex>
+            <Semantics_ex/>
+            <Pragmatics/>
+          </SenseExample>
+          <SenseExample id="53585">
+            <canonicalForm canonicalform="zij is hoofd [verkoop]" expressionType="freeCombination"/>
+            <Syntax_ex>
+              <combiWord lemma="verkoop" partOfSpeech="noun"/>
+            </Syntax_ex>
+            <Semantics_ex/>
+            <Pragmatics/>
+          </SenseExample>
+        </SenseExamples>
+      </Sense>
+    </LexicalEntry>
+    <LexicalEntry id="hoofd-n-4" partOfSpeech="noun">
+      <Lemma writtenForm="hoofd"/>
+      <WordForms>
+        <WordForm writtenForm="hoofd" grammaticalNumber="singular" article="het"/>
+        <WordForm writtenForm="hoofden" grammaticalNumber="plural" article="de"/>
+      </WordForms>
+      <Morphology/>
+      <MorphoSyntax pronominalAndGrammaticalGender="n"/>
+      <Sense senseId="r_n-17067" definition="voorste/bovenste deel" synset="d_n-28502" origin="">
+        <SenseRelations/><Semantics-noun reference="common" countability="count" semanticType="nondynamic"/>
+        <Pragmatics/>
+        <SenseExamples>
+          <SenseExample id="53587">
+            <canonicalForm canonicalform="(ze zat) aan het hoofd van de tafel" phraseType="pp" expressionType="grammaticalCollocation"/>
+            <Syntax_ex>
+              <combiWord lemma="aan" partOfSpeech="preposition"/>
+              <combiWord lemma="tafel" partOfSpeech="noun"/>
+            </Syntax_ex>
+            <Semantics_ex definition="(ze zat) aan een van de korte zijden, waar de belangrijkste plaats is"/>
+            <Pragmatics/>
+          </SenseExample>
+        </SenseExamples>
+      </Sense>
+    </LexicalEntry>
+    
+    
+    <Synset id="d_n-36019">
+      <SynsetRelations>
+			<SynsetRelation target="d_n-31608" relType="has_hyperonym"><Meta author="Paul" date="19961206" source="d_n-36019" confidence="0"/></SynsetRelation>
+	</SynsetRelations>
+      <MonolingualExternalRefs>
+		<MonolingualExternalRef externalSystem="pwn-20" externalReference="ENG20-13565750-n" relType="eq_near_synonym"><Meta author="" date="null" source="Irion Wordnet Aligner 1.0" confidence="0"/></MonolingualExternalRef><MonolingualExternalRef externalSystem="pwn-30" externalReference="ENG30-14379829-n" relType="eq_near_synonym"><Meta author="" date="null" source="Irion Wordnet Aligner 1.0" confidence="0"/></MonolingualExternalRef>
+	
+		<MonolingualExternalRef externalSystem="wordnet_domain" externalReference="psychology"/>
+	</MonolingualExternalRefs>
+    </Synset>
+        <Synset id="d_n-22889">
+      <SynsetRelations>
+			<SynsetRelation target="d_n-23617" relType="has_hyperonym"><Meta author="Paul" date="19961206" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-40127" relType="has_mero_location"><Meta author="Piek" date="19961217" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-42034" relType="has_mero_part"><Meta author="Piek" date="19970129" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-38005" relType="has_mero_part"><Meta author="Piek" date="19970129" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-28207" relType="has_mero_part"><Meta author="Piek" date="19970129" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-12980" relType="has_mero_part"><Meta author="Piek" date="19970129" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-12986" relType="has_mero_part"><Meta author="Piek" date="19970129" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-29064" relType="has_mero_part"><Meta author="Laura" date="19981021" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_v-3762" relType="role_instrument"><Meta author="Piek" date="19970124" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-17280" relType="role_location"><Meta author="piek" date="19990301" source="d_n-22889" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-29481" relType="role_patient"><Meta author="Piek" date="19970422" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_n-12508" relType="role_patient"><Meta author="Piek" date="19970422" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_v-4786" relType="role_patient"><Meta author="Piek" date="19961217" source="d_n-22889" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_v-3020" relType="role_patient"><Meta author="Piek" date="19970126" source="d_n-22889" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="c_971" relType="has_mero_location"><Meta author="" date="null" source="Irion Wordnet Aligner 1.0" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="n_n-516336" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-31860" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-514121" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-514210" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-35040" relType="has_hyponym"/></SynsetRelations>
+      <MonolingualExternalRefs>
+		<MonolingualExternalRef externalSystem="pwn-20" externalReference="ENG20-05221598-n" relType="eq_has_hyperonym"><Meta author="Piek" date="19970129" source="Irion Wordnet Aligner 1.0" status="yes" confidence="0"/></MonolingualExternalRef><MonolingualExternalRef externalSystem="pwn-30" externalReference="ENG30-05538625-n" relType="eq_has_hyperonym"><Meta author="Piek" date="19970129" source="Irion Wordnet Aligner 1.0" status="yes" confidence="0"/></MonolingualExternalRef>	
+		<MonolingualExternalRef externalSystem="wordnet_domain" externalReference="anatomy zoology"/>
+	</MonolingualExternalRefs>
+    </Synset>
+        <Synset id="d_n-34121">
+      <SynsetRelations>
+			<SynsetRelation target="d_n-17965" relType="has_hyperonym"><Meta author="Paul" date="19961206" source="d_n-34121" confidence="0"/></SynsetRelation>	
+			<SynsetRelation target="d_n-39386" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-39741" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-15043" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-22649" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-22819" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-530737" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-505975" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-505517" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-34726" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-525125" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-38472" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-525839" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-18310" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-13370" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-21853" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-512806" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-534471" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-30251" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-527454" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-519570" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-519433" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-36652" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-503507" relType="has_hyponym"/>
+			<SynsetRelation target="c_507" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-28433" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-16528" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-16488" relType="has_hyponym"/>
+			<SynsetRelation target="d_n-28263" relType="has_hyponym"/>
+			<SynsetRelation target="n_n-510909" relType="has_hyponym"/></SynsetRelations>
+      <MonolingualExternalRefs>
+		<MonolingualExternalRef externalSystem="pwn-20" externalReference="ENG20-09508757-n" relType="eq_synonym"><Meta author="Piek" date="19961130" source="Irion Wordnet Aligner 1.0" confidence="0"/></MonolingualExternalRef><MonolingualExternalRef externalSystem="pwn-30" externalReference="ENG30-10162991-n" relType="eq_synonym"><Meta author="Piek" date="19961130" source="Irion Wordnet Aligner 1.0" confidence="0"/></MonolingualExternalRef>	
+		<MonolingualExternalRef externalSystem="wordnet_domain" externalReference="person"/>
+		<MonolingualExternalRef externalSystem="wordnet_domain" externalReference="administration"/>
+	</MonolingualExternalRefs>
+    </Synset>
+    <Synset id="d_n-28502">
+      <SynsetRelations>
+			<SynsetRelation target="d_n-38865" relType="has_hyperonym"><Meta author="Laura" date="19970609" source="d_n-28502" status="yes" confidence="0"/></SynsetRelation>
+			<SynsetRelation target="d_a-9594" relType="be_in_state"><Meta author="Laura" date="19970609" source="d_n-28502" status="yes" confidence="0"/></SynsetRelation>
+	</SynsetRelations>
+      <MonolingualExternalRefs>
+		<MonolingualExternalRef externalSystem="pwn-20" externalReference="ENG20-03274225-n" relType="eq_near_synonym"><Meta author="Laura" date="19981021" source="Irion Wordnet Aligner 1.0" status="yes" confidence="0"/></MonolingualExternalRef><MonolingualExternalRef externalSystem="pwn-30" externalReference="ENG30-03398467-n" relType="eq_near_synonym"><Meta author="Laura" date="19981021" source="Irion Wordnet Aligner 1.0" status="yes" confidence="0"/></MonolingualExternalRef>
+	
+		<MonolingualExternalRef externalSystem="wordnet_domain" externalReference="factotum"/>
+	</MonolingualExternalRefs>
+    </Synset>
+  </Lexicon>
+</LexicalResource>
+    
