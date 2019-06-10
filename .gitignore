@@ -4,3 +4,4 @@
 .DS_Store
 notebooks
 KEY*.ipynb
+lab_sessions/lab3/*/
