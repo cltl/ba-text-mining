@@ -1,6 +1,7 @@
 # import the default library for regular expressions matching, called `re`
 import re
 from nltk import Tree
+import requests
 
 def get_entities_of_type(a_type, a_doc):
     """
@@ -20,7 +21,7 @@ def find_closest_entity(entities, prop_position, e_type):
             
         # determine the distance between the entity and the property
         distance=abs(ent.start_char-prop_position)
-        if min_distance>distance:
+        if min_distance>distance and distance>0:
             min_distance=distance
             closest_entity=ent
     if closest_entity:
@@ -104,3 +105,35 @@ def to_nltk_tree(node):
         return Tree(tok_format(node), [to_nltk_tree(child) for child in node.children])
     else:
         return tok_format(node)
+    
+def obtain_results_from_api(url, params):
+    try:
+        r=requests.get(url, params=params)
+        print(r.request.url)
+    except Exception as e:
+        print('Error with wikipage', url, params, e)
+        return {}
+    j=r.json()
+    if 'batchcomplete' not in j.keys() and 'parse' not in j.keys():
+        print(r.request.url)
+    return j
+    
+def get_wikipedia_page(title, lang='en'):
+    params_extracts={
+        'format': 'json',
+        'action': 'query',
+        'prop': 'extracts',
+        'explaintext': True,
+        'titles': title,
+        'redirects': True,
+        'exlimit': 1
+    }
+    url='https://%s.wikipedia.org/w/api.php?' % lang
+
+    j=obtain_results_from_api(url, params_extracts)
+    data={}
+    for page_id, page_info in j['query']['pages'].items():
+        if page_id=='-1': continue
+        data['title']=page_info['title']
+        data['extract']=page_info['extract']
+    return data
