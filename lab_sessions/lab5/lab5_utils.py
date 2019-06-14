@@ -71,7 +71,7 @@ def evaluate_property(sys_property_data, gold_property_data):
     fp=0
     fn=0
     for entity, gold_value in gold_property_data.items():
-        if entity in sys_property_data: 
+        if entity in sys_property_data and sys_property_data[entity]: 
             system_value=sys_property_data[entity]
             if system_value==gold_value:
                 tp+=1
