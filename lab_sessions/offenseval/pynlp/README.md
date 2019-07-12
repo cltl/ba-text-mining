@@ -3,21 +3,14 @@ Offenseval code for NB/SVM
 
 The Offenseval code is organized in three folders
 
-- data_extraction: 
-    * extracts data for a given offenseval task (a, b or c)
-    * code for splitting training data in train/dev data
-    * preprocessing code for tweets with TweetTokenizer
-- classification:
-    * Tweet representation:
-        * Vocabulary count vectors
-        * Embedding representations (added by Pia)
-    * defines classifiers as part of a pipeline consisting of preprocessing, data representation and classifier proper
-    * grid-search function
-    * defines NB and SVM classifiers with decent settings
-- [MAIN] tasks: 
-    * defines a ML Suite coupling a data extractor with a list of classifiers for experiments on dev/test data
-    * records some grid search settings 
-    * calls offenseval task to either perform grid search or compare classifiers in a same run
+- tasks: contains classes to extract data related to specific tasks. You can use the model of the 'offenseval' to extract data from other tasks/data sets
+- ml_pipeline: code for ML pipeline
+    * preprocessing: tokenize, lowercase, etc.
+    * representation: format data for input to classifiers. Currently allows for count vectors and word embeddings
+    * utils: utility functions for data splitting and grid search
+    * pipelines: defines pipelines with a given preprocessing, representation and classification step. Current classifiers are Naive Bayes and SVM
+    * experiment: contains the main method to run pipelines on a given task
+- tests: contains a basic test suite (to be run with pytest), showing usage examples 
 
+Authors: Sophie Arnoult, Pia Sommerauer
 
-Created by Sophie Arnoult (with modifications by Pia Sommerauer)
