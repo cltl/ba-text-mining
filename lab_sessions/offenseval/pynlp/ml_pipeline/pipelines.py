@@ -33,6 +33,11 @@ def svm_libsvc_counts():
                                                                                                dual=False, C=0.1))
 
 
+def svm_libsvc_tfidf():
+    return pipeline(preprocessing.std_prep(), representation.tfidf_vectorizer(), svm.LinearSVC(max_iter=10000,
+                                                                                               dual=False, C=0.1))
+
+
 def svm_libsvc_embed():
     return pipeline(preprocessing.std_prep(), representation.text2embeddings('wiki-news'), svm.LinearSVC(max_iter=10000,
                                                                                               dual=False, C=0.1))

@@ -43,11 +43,14 @@ Usage
 
 * You can use pytest to run the test suite
 
-   * from PyCharm: edit a pytest configuration to run `py.test under test_suite.py`
+   * from PyCharm: edit a pytest configuration to run `py.test under test_suite.py`. Use the absolute path to 'pynlp' as working directory.
+   * from the command line (under 'pynlp'): call 'pytest'; this will run all test suites under 'tests'
 
-* The main function is located under `ml_pipeline/experiment.py`.  
+* Call the 'ml_pipeline' module to run experiments:
 
-   * the function takes three arguments:
+   * ```pynlp$ python -m ml_pipeline```  
+   * from PyCharm: edit a run configuration, setting the working directory to 'pynlp'
+   * the main function takes three arguments:
        * a task name (default is 'offenseval') specifying data file names
        * the path to the data (default is 'data')
        * a pipeline (default is 'naive_bayes')   

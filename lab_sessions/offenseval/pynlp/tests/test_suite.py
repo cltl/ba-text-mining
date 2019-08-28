@@ -6,10 +6,9 @@ from ml_pipeline import representation
 from ml_pipeline import pipelines
 
 
-#offenseval_data_dir = '../../../../../data/offenseval2017/'
-offenseval_data_dir = '../data/'
-trac_data_dir = '../resources/TRAC2018/VUA_format/'
-hate_speech_data_dir = '../resources/hate-speech-dataset-vicom/VUA_format/'
+offenseval_data_dir = 'data/'
+trac_data_dir = 'resources/TRAC2018/VUA_format/'
+hate_speech_data_dir = 'resources/hate-speech-dataset-vicom/VUA_format/'
 
 
 def test_offenseval_data_extraction_task_a():

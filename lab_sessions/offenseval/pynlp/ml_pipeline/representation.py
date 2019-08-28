@@ -1,6 +1,6 @@
 from sklearn.base import TransformerMixin
 from gensim.models import KeyedVectors
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 import numpy as np
 from gensim.scripts.glove2word2vec import glove2word2vec
 from pathlib import Path
@@ -15,13 +15,13 @@ class Text2Embedding(TransformerMixin):
         print('transforming data using customized transformer')
         model = None
         if self.embed_source == 'glove':
-            path = '../data/glove.twitter.27B.100d.txt'
-            w2vfile = '../data/glove.twitter.27B.100d.w2v.txt'
+            path = 'data/glove.twitter.27B.100d.txt'
+            w2vfile = 'data/glove.twitter.27B.100d.w2v.txt'
             if not Path(w2vfile).is_file():
                 glove2word2vec(path, w2vfile)
             model = KeyedVectors.load_word2vec_format(w2vfile, binary=False)
         else:
-            path = '../data/wiki-news-300d-1M.vec'
+            path = 'data/wiki-news-300d-1M.vec'
             model = KeyedVectors.load_word2vec_format(path, binary=False)
         n_d = len(model['the'])
         data = []
@@ -42,6 +42,10 @@ class Text2Embedding(TransformerMixin):
 
 def count_vectorizer(kwargs={}):
     return CountVectorizer(**kwargs)
+
+
+def tfidf_vectorizer(kwargs={}):
+    return TfidfVectorizer(**kwargs)
 
 
 def text2embeddings(embed_source='glove'):

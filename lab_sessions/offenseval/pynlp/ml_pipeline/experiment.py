@@ -46,6 +46,8 @@ def pipeline(name):
         return pipelines.naive_bayes()
     elif name == 'svm_libsvc_counts':
         return pipelines.svm_libsvc_counts()
+    elif name == 'svm_libsvc_tfidf':
+        return pipelines.svm_libsvc_tfidf()
     elif name == 'svm_libsvc_embed':
         return pipelines.svm_libsvc_embed()
     elif name == 'svm_sigmoid_embed':
@@ -54,12 +56,12 @@ def pipeline(name):
         raise ValueError("pipeline name is unknown. You can add a custom pipeline in 'pipelines'")
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='run classifier on Offenseval data')
-    parser.add_argument('--task', dest='task', default="offenseval")
-    parser.add_argument('--data_dir', dest='data_dir', default="../data/")
-    parser.add_argument('--pipeline', dest='pipeline', default='naive_bayes')
-    args = parser.parse_args()
+#if __name__ == "__main__":
+#    parser = argparse.ArgumentParser(description='run classifier on Offenseval data')
+#    parser.add_argument('--task', dest='task', default="offenseval")
+#    parser.add_argument('--data_dir', dest='data_dir', default="../data/")
+#    parser.add_argument('--pipeline', dest='pipeline', default='naive_bayes')
+#    args = parser.parse_args()
 
-    run(args.task, args.data_dir, args.pipeline)
+#    run(args.task, args.data_dir, args.pipeline)
 
