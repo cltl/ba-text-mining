@@ -3,7 +3,7 @@ Offenseval code for NB/SVM
 
 The Offenseval code is organized in three folders
 
-- tasks: contains classes to extract data related to specific tasks. You can use the model of the 'offenseval' to extract data from other tasks/data sets
+- tasks: contains classes to extract data related to specific tasks. You can use the model of 'vua_format' to extract data from other tasks/data sets
 - ml_pipeline: code for ML pipeline
     * preprocessing: tokenize, lowercase, etc.
     * representation: format data for input to classifiers. Currently allows for count vectors and word embeddings
@@ -37,7 +37,10 @@ $ conda create --name <env> --file requirements.txt
 Usage
 =======
 
-* Make sure that you load or link Offenseval data files to a `data/` folder under `pynlp/`
+* Make sure that you load or link data files to a `data/` folder under `pynlp/`. 
+
+   * This includes word embeddings. The code currently runs with Glove twitter embeddings or wiki-news embeddings.
+
 * You can use pytest to run the test suite
 
    * from PyCharm: edit a pytest configuration to run `py.test under test_suite.py`

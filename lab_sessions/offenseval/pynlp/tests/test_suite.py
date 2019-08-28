@@ -1,4 +1,5 @@
 from tasks import offenseval as of
+from tasks import vua_format as vf
 from ml_pipeline import utils
 from ml_pipeline import preprocessing
 from ml_pipeline import representation
@@ -7,6 +8,8 @@ from ml_pipeline import pipelines
 
 #offenseval_data_dir = '../../../../../data/offenseval2017/'
 offenseval_data_dir = '../data/'
+trac_data_dir = '../resources/TRAC2018/VUA_format/'
+hate_speech_data_dir = '../resources/hate-speech-dataset-vicom/VUA_format/'
 
 
 def test_offenseval_data_extraction_task_a():
@@ -84,3 +87,25 @@ def test_grid_search():
     params = {'clf__C': (0.1, 1)}
     best_sys_y = utils.grid_search(pipelines.svm_libsvc_counts(), params, train_X, train_y, test_X)
     assert len(best_sys_y) == len(test_y)
+
+
+def test_trac2018():
+    task = vf.VuaFormat()
+    task.load(trac_data_dir, [])
+    train_X, train_y, test_X, test_y = utils.get_instances(task, split_train_dev=True, proportion_train=0.1,
+                                                           proportion_dev=0.01)
+    pipe = pipelines.naive_bayes()
+    pipe.fit(train_X, train_y)
+    sys_y = pipe.predict(test_X)
+    assert len(sys_y) == len(test_y)
+
+
+def test_hate_speech():
+    task = vf.VuaFormat()
+    task.load(hate_speech_data_dir, ['testData.csv'])
+    train_X, train_y, test_X, test_y = utils.get_instances(task, split_train_dev=True, proportion_train=0.1,
+                                                           proportion_dev=0.01)
+    pipe = pipelines.naive_bayes()
+    pipe.fit(train_X, train_y)
+    sys_y = pipe.predict(test_X)
+    assert len(sys_y) == len(test_y)

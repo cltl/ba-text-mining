@@ -34,10 +34,10 @@ def svm_libsvc_counts():
 
 
 def svm_libsvc_embed():
-    return pipeline(preprocessing.std_prep(), representation.text2embeddings(), svm.LinearSVC(max_iter=10000,
+    return pipeline(preprocessing.std_prep(), representation.text2embeddings('wiki-news'), svm.LinearSVC(max_iter=10000,
                                                                                               dual=False, C=0.1))
 
 
 def svm_sigmoid_embed():
-    return pipeline(preprocessing.std_prep(), representation.text2embeddings(), svm.SVC(kernel='sigmoid',
+    return pipeline(preprocessing.std_prep(), representation.text2embeddings('glove'), svm.SVC(kernel='sigmoid',
                                                                                         gamma='scale'))

@@ -3,6 +3,7 @@ import logging
 import sys
 
 from tasks import offenseval as of
+from tasks import vua_format as vf
 from ml_pipeline import utils
 from ml_pipeline import pipelines
 
@@ -34,6 +35,8 @@ def run(task_name, data_dir, pipeline_name):
 def task(name):
     if name == 'offenseval':
         return of.Offenseval()
+    elif name == 'vua-format':
+        return vf.VuaFormat()
     else:
         raise ValueError("task name is unknown. You can add a custom task in 'tasks'")
 
