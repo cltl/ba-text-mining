@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
+import pickle
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics.classification import classification_report
+from keras.models import load_model
 
 
 # ----------- data extraction and splitting ----------------------
@@ -62,3 +64,38 @@ def grid_search(pipeline, parameters, train_X, train_y, test_X):
 
 def eval(test_y, sys_y):
     return classification_report(test_y, sys_y)
+
+
+# ----------- saving / loading --------------------
+
+def write_data_to_disk(train_X, train_y, test_X, test_y, dir):
+    with open(dir + 'train_X.pkl', 'wb') as f:
+        pickle.dump(train_X, f)
+    with open(dir + 'train_y.pkl', 'wb') as f:
+        pickle.dump(train_y, f)
+    with open(dir + 'test_X.pkl', 'wb') as f:
+        pickle.dump(test_X, f)
+    with open(dir + 'test_y.pkl', 'wb') as f:
+        pickle.dump(test_y, f)
+
+
+def load_data(dir):
+    with open(dir + 'train_X.pkl', 'rb') as f:
+        train_X = pickle.load(f)
+    with open(dir + 'train_y.pkl', 'rb') as f:
+        train_y = pickle.load(f)
+    with open(dir + 'test_X.pkl', 'rb') as f:
+        test_X = pickle.load(f)
+    with open(dir + 'test_y.pkl', 'rb') as f:
+        test_y = pickle.load(f)
+    return train_X, train_y, test_X, test_y
+
+
+def write_keras_model_to_disk(model, dir):
+    model.save(dir + "model.h5")
+
+
+def load_keras_model(dir):
+    model = load_model(dir + 'model.h5')
+    model.summary()
+    return model

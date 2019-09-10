@@ -1,12 +1,11 @@
-import argparse
 import logging
 import sys
 
 from tasks import offenseval as of
 from tasks import vua_format as vf
-from ml_pipeline import utils
+from ml_pipeline import utils, cnn, preprocessing
 from ml_pipeline import pipelines
-
+from ml_pipeline.cnn import CNN
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -23,9 +22,15 @@ def run(task_name, data_dir, pipeline_name):
     tsk.load(data_dir)
     logger.info('>> retrieving train/test instances...')
     train_X, train_y, test_X, test_y = utils.get_instances(tsk, split_train_dev=False)
+
+    if pipeline_name.startswith('cnn'):
+        pipe = cnn(pipeline_name)
+        train_X, train_y, test_X, test_y = pipe.encode(train_X, train_y, test_X, test_y)
+        logger.info('>> testing...')
+
     logger.info('>> training pipeline ' + pipeline_name)
-    pipe = pipeline(pipeline_name)
     pipe.fit(train_X, train_y)
+
     logger.info('>> testing...')
     sys_y = pipe.predict(test_X)
     logger.info('>> evaluation...')
@@ -39,6 +44,15 @@ def task(name):
         return vf.VuaFormat()
     else:
         raise ValueError("task name is unknown. You can add a custom task in 'tasks'")
+
+
+def cnn(name):
+    if name == 'cnn_raw':
+        return CNN()
+    elif name == 'cnn_prep':
+        return CNN(preprocessing.std_prep())
+    else:
+        raise ValueError("pipeline name is unknown.")
 
 
 def pipeline(name):
@@ -56,12 +70,4 @@ def pipeline(name):
         raise ValueError("pipeline name is unknown. You can add a custom pipeline in 'pipelines'")
 
 
-#if __name__ == "__main__":
-#    parser = argparse.ArgumentParser(description='run classifier on Offenseval data')
-#    parser.add_argument('--task', dest='task', default="offenseval")
-#    parser.add_argument('--data_dir', dest='data_dir', default="../data/")
-#    parser.add_argument('--pipeline', dest='pipeline', default='naive_bayes')
-#    args = parser.parse_args()
-
-#    run(args.task, args.data_dir, args.pipeline)
 
