@@ -27,7 +27,9 @@ def run(task_name, data_dir, pipeline_name):
         pipe = cnn(pipeline_name)
         train_X, train_y, test_X, test_y = pipe.encode(train_X, train_y, test_X, test_y)
         logger.info('>> testing...')
-
+    else:
+        pipe = pipeline(pipeline_name)
+  
     logger.info('>> training pipeline ' + pipeline_name)
     pipe.fit(train_X, train_y)
 
