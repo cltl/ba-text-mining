@@ -99,3 +99,10 @@ def load_keras_model(dir):
     model = load_model(dir + 'model.h5')
     model.summary()
     return model
+
+# --------------reporting predictions per document --------------------
+
+def print_prediction(test_X,test_y,sys_y):
+   print("pred\t", "gold\t", "text")
+   for i in range(0,len(sys_y)):
+        print(sys_y[i],"\t",test_y[i],"\t",test_X[i])
