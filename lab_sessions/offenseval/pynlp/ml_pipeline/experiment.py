@@ -35,6 +35,7 @@ def run(task_name, data_dir, pipeline_name):
 
     logger.info('>> testing...')
     sys_y = pipe.predict(test_X)
+    logger.info(utils.print_prediction(test_X, test_y, sys_y))
     logger.info('>> evaluation...')
     logger.info(utils.eval(test_y, sys_y))
 
