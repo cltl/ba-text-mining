@@ -59,8 +59,10 @@ def cnn(name):
 
 
 def pipeline(name):
-    if name == 'naive_bayes':
-        return pipelines.naive_bayes()
+    if name == 'naive_bayes_counts':
+        return pipelines.naive_bayes_counts()
+    elif name == 'naive_bayes_tfidf':
+        return pipelines.naive_bayes_tfidf()
     elif name == 'svm_libsvc_counts':
         return pipelines.svm_libsvc_counts()
     elif name == 'svm_libsvc_tfidf':
@@ -71,6 +73,7 @@ def pipeline(name):
         return pipelines.svm_sigmoid_embed()
     else:
         raise ValueError("pipeline name is unknown. You can add a custom pipeline in 'pipelines'")
+
 
 
 
