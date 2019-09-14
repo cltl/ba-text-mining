@@ -17,7 +17,7 @@ def test_offenseval_data_extraction_task_a():
     train_X, train_y = task.train_instances()
     test_X, test_y = task.test_instances()
     assert len(train_X) == 13240
-    assert len(test_y) == 320
+    assert len(test_y) == 319
     assert isinstance(train_X[0], str)
 
     labels = set(test_y)
@@ -29,7 +29,7 @@ def test_data_split_on_offenseval():
     task.load(offenseval_data_dir)
     train_X, train_y, test_X, test_y = utils.get_instances(task, split_train_dev=False)
     assert len(train_X) == 13240
-    assert len(test_X) == 320
+    assert len(test_X) == 319
     assert isinstance(train_X[0], str)
 
     train_X, train_y, test_X, test_y = utils.get_instances(task, split_train_dev=True)
@@ -72,7 +72,7 @@ def test_naive_bayes_pipeline():
     task.load(offenseval_data_dir)
     train_X, train_y, test_X, test_y = utils.get_instances(task, split_train_dev=True, proportion_train=0.1,
                                                            proportion_dev=0.01)
-    pipe = pipelines.naive_bayes()
+    pipe = pipelines.naive_bayes_counts()
     pipe.fit(train_X, train_y)
     sys_y = pipe.predict(test_X)
     assert len(sys_y) == len(test_y)
@@ -90,10 +90,10 @@ def test_grid_search():
 
 def test_trac2018():
     task = vf.VuaFormat()
-    task.load(trac_data_dir, [])
+    task.load(trac_data_dir, 'devData.csv')
     train_X, train_y, test_X, test_y = utils.get_instances(task, split_train_dev=True, proportion_train=0.1,
                                                            proportion_dev=0.01)
-    pipe = pipelines.naive_bayes()
+    pipe = pipelines.naive_bayes_counts()
     pipe.fit(train_X, train_y)
     sys_y = pipe.predict(test_X)
     assert len(sys_y) == len(test_y)
@@ -101,10 +101,10 @@ def test_trac2018():
 
 def test_hate_speech():
     task = vf.VuaFormat()
-    task.load(hate_speech_data_dir, ['testData.csv'])
+    task.load(hate_speech_data_dir)
     train_X, train_y, test_X, test_y = utils.get_instances(task, split_train_dev=True, proportion_train=0.1,
                                                            proportion_dev=0.01)
-    pipe = pipelines.naive_bayes()
+    pipe = pipelines.naive_bayes_counts()
     pipe.fit(train_X, train_y)
     sys_y = pipe.predict(test_X)
     assert len(sys_y) == len(test_y)

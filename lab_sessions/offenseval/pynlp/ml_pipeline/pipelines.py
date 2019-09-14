@@ -31,6 +31,11 @@ def naive_bayes_tfidf():
     return pipeline(preprocessing.std_prep(), representation.tfidf_vectorizer(), MultinomialNB())
 
 
+def svm_libsvc_counts():
+    return pipeline(preprocessing.std_prep(), representation.count_vectorizer(), svm.LinearSVC(max_iter=10000,
+                                                                                               dual=False, C=0.1))
+
+
 def svm_libsvc_tfidf():
     return pipeline(preprocessing.std_prep(), representation.tfidf_vectorizer(), svm.LinearSVC(max_iter=10000,
                                                                                                dual=False, C=0.1))

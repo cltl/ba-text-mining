@@ -25,7 +25,7 @@ class Offenseval:
         self.train_data = pd.read_csv(data_dir + self.training_file, delimiter="\t")
         self.test_data = pd.read_csv(data_dir + self.test_file,
                                      delimiter="\t",
-                                     header=None,
+                                     header=0,
                                      names=["tweet", "subtask_a", "subtask_b", "subtask_c"])
 
     def train_instances(self):
