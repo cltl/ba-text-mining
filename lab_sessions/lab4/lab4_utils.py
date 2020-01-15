@@ -1,6 +1,6 @@
 import urllib
 from rdflib import Graph, URIRef
-from lab4_classes import NewsItem, EntityMention
+from lab3_classes import NewsItem, EntityMention
 
 def normalizeURL(s):
     """
