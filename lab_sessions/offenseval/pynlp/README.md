@@ -15,23 +15,33 @@ The Offenseval code is organized in three folders
 
 Requirements
 ============
-
-You can create a Python (3) environment with pip or conda, and load required packages as follows.
+Environment
+------------
+You can create a Python (3) environment (for instance 'myenv') with pip or conda, and load required packages as follows.
 
 With venv and pip
--------------------
+"""""""""""""""""
  
 ```
-   $ python -m venv <env>
-   $ source activate <env>
-   $ pip install -r requirements.txt
+   $ python -m venv myenv
+   $ source activate myenv
 ```
 
 With conda
-----------
+"""""""""""""""""
 
 ```
-$ conda create --name <env> --file requirements.txt
+   $ conda create --name myenv python=3.6
+   $ conda activate myenv
+```
+
+Requirements
+-------------
+Install the following libraries, as well as the spacy model 'en_core_web_sm':
+
+```
+   $ pip install Keras scikit-learn spacy nltk
+   $ python -m spacy download en_core_web_sm
 ```
 
 Usage
