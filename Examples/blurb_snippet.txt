@@ -1,0 +1,34 @@
+<book date="2018-08-18" xml:lang="en"> 
+<title>Bluefish</title>
+<body>Thirteen-year-old Travis has a secret: he can’t read. But a shrewd teacher and a sassy girl are about to change everything in this witty and deeply moving novel.Travis is missing his old home in the country, and he’s missing his old hound, Rosco. Now there’s just the cramped place he shares with his well-meaning but alcoholic grandpa, a new school, and the dreaded routine of passing when he’s called on to read out loud. But that’s before Travis meets Mr. McQueen, who doesn’t take “pass” for an answer—a rare teacher whose savvy persistence has Travis slowly unlocking a book on the natural world. And it’s before Travis is noticed by Velveeta, a girl whose wry banter and colorful scarves belie some hard secrets of her own. With sympathy, humor, and disarming honesty, Pat Schmatz brings to life a cast of utterly believable characters—and captures the moments of trust and connection that make all the difference.</body>
+<copyright>(c) Penguin Random House</copyright>
+<metadata>
+<topics>
+<d0>Teen & Young Adult</d0>
+<d1>Teen & Young Adult Fiction</d1>
+<d1>Teen & Young Adult Social Issues</d1>
+</topics>
+<author>Pat Schmatz</author>
+<published>Aug 06, 2013 </published>
+<page_num> 240 Pages</page_num>
+<isbn>9780763663414</isbn>
+<url>https://www.penguinrandomhouse.com/books/214830/bluefish-by-pat-schmatz/</url>
+</metadata>
+</book>
+<book date="2018-08-18" xml:lang="en"> 
+<title>Ghost Gone Wild</title>
+<body>New York Times bestselling author Carolyn Hart’s good-hearted spirit just can’t say no to an earthly rescue in the fourth Bailey Ruth Ghost novel… As far as emissaries from Heaven’s Department of Good Intentions go, Bailey Ruth is far from the top of the go-to list for assignments in the eyes of her boss, Wiggins. So she’s surprised when she’s dropped off on the outskirts of her old hometown, Adelaide, Oklahoma, at the home of young Nick Magruder. When a window cracks and a rifle barrel is thrust inside, only Bailey Ruth’s hasty intervention saves Nick from taking a bullet. But after she materializes to reassure him, she finds she can’t go back to vanishing. What gives? It turns out Bailey’s been tricked by Nick’s late aunt to come to his rescue, which means Wiggins has no idea where she is—and now she may be trapped in Adelaide forever. Unless she can help snare the person who wants Nick dead…</body>
+<copyright>(c) Penguin Random House</copyright>
+<metadata>
+<topics>
+<d2>Cozy Mysteries</d2>
+<d0>Fiction</d0>
+<d1>Mystery & Suspense</d1>
+</topics>
+<author>Carolyn Hart</author>
+<published>Oct 07, 2014 </published>
+<page_num> 304 Pages</page_num>
+<isbn>9780425260760</isbn>
+<url>https://www.penguinrandomhouse.com/books/312119/ghost-gone-wild-by-carolyn-hart/</url>
+</metadata>
+</book>
