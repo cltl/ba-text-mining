@@ -1,73 +1,75 @@
 {
     "1": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "Very happy to score my first goal with the blues. Come on!!
+        Next round @ChelseaFC @EmiratesFACup",
+        "tweet_url": "https://twitter.com/saulniguez/status/1499135951003697156"
     },
     "2": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Kim Kardashian has officially been granted her request to be legally single, restoring her maiden name and dropping West.",
+        "tweet_url": "https://twitter.com/i/topics/1095352268046495745"
     },
     "3": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "No one has an hour to listen to it",
+        "tweet_url": "https://twitter.com/Ievitatingg/status/1499102665128747017"
     },
     "4": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "I hope Kim and Pete use this in court to get restraining orders against Kanye.",
+        "tweet_url": "https://twitter.com/Lanalbb/status/1499124738999959553"
     },
     "5": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "Grateful for everything that’s missed me . I know it wasn’t for me",
+        "tweet_url": "https://twitter.com/sza/status/1499115352260706308"
     },
     "6": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "@LettyA
+        ahh ive always wanted to see rent :( love the soundtrack!!",
+        "tweet_url": "https://twitter.com/starkissed/status/1467813579"
     },
     "7": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "@Viennah Yay! I'm happy for you with your job! But that also means less time for me and you...",
+        "tweet_url": "https://twitter.com/antzpantz/status/1467819650"
     },
     "8": {
         "sentiment_label": "",
         "text_of_tweet": "",
-        "tweet_url": ""
+        "tweet_url": "https://twitter.com/anjaaminki/status/1468161209"
     },
     "9": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
+        "sentiment_label": "negative",
+        "text_of_tweet": "i don't wanna go to work i wanna go to bed!",
         "tweet_url": ""
     },
     "10": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "I just made the prettiest latte! I even used the milk steamer and put a dollop of foam on top, and sprinkled cinnamon/sugar on it! ",
+        "tweet_url": "https://twitter.com/stephoodle/status/1551681354"
     },
     "11": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "listening to some songs from the Punk goes Pop 2 album.  awesome! haha!",
+        "tweet_url": "https://twitter.com/heypatmarie/status/1551744472"
     },
     "12": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "On this day, 12 years ago: Lady Gaga performs 'Telephone' and 'Brown Eyes' on Friday Night With Jonathan Ross.",
+        "tweet_url": "https://twitter.com/ThrowbacksGaga/status/1499308610819608577"
     },
     "13": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "I am microbiologist and I eat raw cookie dough",
+        "tweet_url": "https://twitter.com/sciliz/status/1498814095038029825"
     },
     "14": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "now what if labrinth and zendaya are secretly working on an album or EP together... thinking",
+        "tweet_url": "https://twitter.com/thedayacure/status/1499076393136791554"
     },
     "15": {
         "sentiment_label": "",
