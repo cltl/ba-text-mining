@@ -1,8 +1,7 @@
 {
     "1": {
         "sentiment_label": "positive",
-        "text_of_tweet": "Very happy to score my first goal with the blues. Come on!!
-        Next round @ChelseaFC @EmiratesFACup",
+        "text_of_tweet": "Very happy to score my first goal with the blues. Come on!! Next round @ChelseaFC @EmiratesFACup",
         "tweet_url": "https://twitter.com/saulniguez/status/1499135951003697156"
     },
     "2": {
@@ -27,8 +26,7 @@
     },
     "6": {
         "sentiment_label": "negative",
-        "text_of_tweet": "@LettyA
-        ahh ive always wanted to see rent :( love the soundtrack!!",
+        "text_of_tweet": "@LettyA ahh ive always wanted to see rent :( love the soundtrack!!",
         "tweet_url": "https://twitter.com/starkissed/status/1467813579"
     },
     "7": {
@@ -72,69 +70,69 @@
         "tweet_url": "https://twitter.com/thedayacure/status/1499076393136791554"
     },
     "15": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "It’s so fucking awkward that CNN will cut from an interview with a Ukrainian family that has had their home bombed and lost everything to a commercial with upbeat music for fucking Applebees so quickly.",
+        "tweet_url": "https://twitter.com/IWDominateLoL/status/1496885266468028418?s=20&t=M1CKJCli-wxv8xWAZOLwPQ"
     },
     "16": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "Reasons to hate are remembered better than reasons to love",
+        "tweet_url": "https://twitter.com/elonmusk/status/1494400631712501764?s=20&t=UxsWf65IRVtxt7_TMVbTqw"
     },
     "17": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "So amazing that we decompress from a single cell to over 30 trillion cells",
+        "tweet_url": "https://twitter.com/elonmusk/status/1494821520815779843?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "18": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "Yoooo! What a dream that would be… @Labrinth ???",
+        "tweet_url": "https://twitter.com/Zendaya/status/1498477238676639744?s=20&t=evwQi_cNzevlZyDZknQmyw"
     },
     "19": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Additionally, new tickets have been added for certain cities on the tour! Tickets are available now at http://billieeilish.com/tour",
+        "tweet_url": "https://twitter.com/billieeilish/status/1491546831611781120?s=20&t=zlWsVPBlRuk9T2qwAYxA8w"
     },
     "20": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "It's hard to beat a person who never gives up. ~ Babe Ruth #quotes #success #startup",
+        "tweet_url": "https://twitter.com/exceptionalfood/status/1499493315296862216?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "21": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "It just hit me that one of my oldest and closest (or so I thought) friend, who has my number wished me a happy birthday on twitter...wow, so personal. Feel so loved!",
+        "tweet_url": "https://twitter.com/brwngrls_diary/status/1499493859042242564?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "22": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "shoutout to the annoying kid in eighth grade who wouldn’t stop talking about demons souls he’s probably so happy now",
+        "tweet_url": "https://twitter.com/onlineicon01/status/1499493845041561602?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "23": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "IKEA charging £40 for delivery is VERY VERY crazy.",
+        "tweet_url": "https://twitter.com/iAmCroe/status/1499357461630926852?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "24": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "who plays fifa I need a fifa buddy",
+        "tweet_url": "https://twitter.com/n4sserrr/status/1499496057042055174?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "25": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "5 Million hectares of forest is lost to deforestation a year. Beef is responsible for 41% of global deforestation. Deforestation contributes about 4.8 Billion tonnes of Carbon Dioxide a year, turning the Amazon Rainforest into a carbon source. #ClimateCrisis #CIimateEmergency.",
+        "tweet_url": "https://twitter.com/KaraJarina/status/1499419995469762570?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "26": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "These stories are rampant in warehouses, from Best Buy to UPS to Amazon. These companies push workers to injury, fight them through workers comp to get medical care, then trash them entirely when they're disabled.",
+        "tweet_url": "https://twitter.com/SarafromMI/status/1499470934889095169?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "27": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "Im goin on a mf trip. Who's with me?",
+        "tweet_url": "https://twitter.com/SpacePa21927768/status/1499422158501691392?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "28": {
         "sentiment_label": "",
