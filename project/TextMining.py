@@ -100,9 +100,12 @@ def analyze_topic(
 def sentiment(text):
     #TODO
     scores = vader_model.polarity_scores(text)
+    #remove print statements. only for debugging. Should return number only
+    
 #     print('INPUT SENTENCE', text)
 #     print('VADER OUTPUT: POS=', scores['pos'])
 #     print('POS:', scores['pos'], 'NEG:', scores['neg'], 'NEU:', scores['neu'], 'COMP:', scores['compound'])
+
     if scores['pos'] and scores['neu'] < scores['neg']:
         print(0)
         return 0 
@@ -113,5 +116,9 @@ def sentiment(text):
         print(0.5)
         return 0.5
 
+    
+
+    
+    
 # Only parent tweets for now - replies works, I'm just worried abt duplicates
 print(analyze_topic('"Mac Studio"', bearer_token, num_replies=0))
