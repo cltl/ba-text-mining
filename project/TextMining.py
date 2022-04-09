@@ -1,9 +1,11 @@
 import requests
 import numpy
 import nltk 
+#nltk.download('vader_lexicon')
 from nltk.sentiment import vader
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 vader_model = SentimentIntensityAnalyzer()
+
 
 api_url = 'https://api.twitter.com/2/tweets/search/recent'
 bearer_token = 'AAAAAAAAAAAAAAAAAAAAAIyUagEAAAAAwJxB%2BsJcNlgKNgKMKifUDwQXng4%3DXRKHHBl5MeXoeYlDra1KYstSRKM3D3WjTsaBt2cgktFOJYplTe'
@@ -72,12 +74,14 @@ def analyze_topic(
         sentiments = []
         for tweet in tweets['data']:
             if tweet['public_metrics']['like_count'] >= minimum_likes:
-                sentiments.append(
-                        {
-                            'sentiment': sentiment(tweet['text']),
-                            'weight': parent_weight*(1 + tweet['public_metrics']['retweet_count'] + tweet['public_metrics']['quote_count'] + tweet['public_metrics']['like_count'])
-                        }
-                    )
+                s = sentiment(tweet['text'])
+                if s:
+                    sentiments.append(
+                            {
+                                'sentiment': s,
+                                'weight': parent_weight*(1 + tweet['public_metrics']['retweet_count'] + tweet['public_metrics']['quote_count'] + tweet['public_metrics']['like_count'])
+                            }
+                        )
 
             if num_replies:
                 replies = get_replies(tweet['id'], bearer_token, num_replies)
@@ -85,12 +89,14 @@ def analyze_topic(
                     for reply in replies['data']:
                         metrics = reply['public_metrics']
                         if metrics['like_count'] >= minimum_likes:
-                            sentiments.append(
-                                {
-                                    'sentiment': sentiment(reply['text']),
-                                    'weight': reply_weight*(1 + metrics['retweet_count'] + metrics['quote_count'] + metrics['like_count'])
-                                }
-                            )
+                            s = sentiment(reply['text'])
+                            if s:
+                                sentiments.append(
+                                    {
+                                        'sentiment': s,
+                                        'weight': reply_weight*(1 + metrics['retweet_count'] + metrics['quote_count'] + metrics['like_count'])
+                                    }
+                                )
         weighted_average = numpy.average(
             [item['sentiment'] for item in sentiments],
             weights = [item['weight'] for item in sentiments]
@@ -98,7 +104,6 @@ def analyze_topic(
         return weighted_average
     
 def sentiment(text):
-    #TODO
     scores = vader_model.polarity_scores(text)
     #remove print statements. only for debugging. Should return number only
     
@@ -109,16 +114,19 @@ def sentiment(text):
     if scores['pos'] and scores['neu'] < scores['neg']:
         print(0)
         return 0 
-    if scores['neg'] and scores['neu'] < scores['pos']:
+    elif scores['neg'] and scores['neu'] < scores['pos']:
         print(1)
         return 1
-    if scores['pos'] and scores['neg'] < scores['neu']:
+    elif scores['pos'] and scores['neg'] < scores['neu']:
         print(0.5)
         return 0.5
+    else:
+        print('No Sentiment Found')
+        return None
 
     
 
     
     
 # Only parent tweets for now - replies works, I'm just worried abt duplicates
-print(analyze_topic('"Mac Studio"', bearer_token, num_replies=0))
+print(analyze_topic('"Mac Studio"', bearer_token, num_replies=100, num_parents=100))
