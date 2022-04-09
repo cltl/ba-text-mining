@@ -1,6 +1,8 @@
 import requests
 import numpy
 import nltk 
+import spacy
+nlp = spacy.load('en_core_web_sm')
 #nltk.download('vader_lexicon')
 from nltk.sentiment import vader
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
@@ -112,20 +114,57 @@ def sentiment(text):
 #     print('POS:', scores['pos'], 'NEG:', scores['neg'], 'NEU:', scores['neu'], 'COMP:', scores['compound'])
 
     if scores['pos'] and scores['neu'] < scores['neg']:
-        print(0)
+#         print(0)
         return 0 
     elif scores['neg'] and scores['neu'] < scores['pos']:
-        print(1)
+#         print(1)
         return 1
     elif scores['pos'] and scores['neg'] < scores['neu']:
-        print(0.5)
+#         print(0.5)
         return 0.5
     else:
         print('No Sentiment Found')
         return None
 
-    
 
+#code below is to implement VADER with NLTK. Doesn't work yet though.    
+def run_vader(textual_unit, 
+              lemmatize=False, 
+              parts_of_speech_to_consider=None,
+              verbose=0):
+
+    doc = nlp(textual_unit)
+        
+    input_to_vader = []
+
+    for sent in doc.sents:
+        for token in sent:
+
+            to_add = token.text
+
+            if lemmatize:
+                to_add = token.lemma_
+
+                if to_add == '-PRON-': 
+                    to_add = token.text
+
+            if parts_of_speech_to_consider:
+                if token.pos_ in parts_of_speech_to_consider:
+                    input_to_vader.append(to_add) 
+            else:
+                input_to_vader.append(to_add)
+
+    scores = vader_model.polarity_scores(' '.join(input_to_vader))
+    
+    if verbose >= 1:
+        print()
+        print('INPUT SENTENCE', sent)
+        print('INPUT TO VADER', input_to_vader)
+        print('VADER OUTPUT', scores)
+
+    return scores
+    
+run_vader(text, lemmatize=True)
     
     
 # Only parent tweets for now - replies works, I'm just worried abt duplicates
