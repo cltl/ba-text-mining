@@ -1,0 +1,136 @@
+The Mac Studio is the computer everyone wanted the Mac Pro to be.
+
+Apple’s 2019 desktop release was supposed to be the computer that professional Mac users had been waiting for. It was endlessly configurable with powerful Intel processors and AMD graphics chips, and its top-end configuration hovered around $52,000. After the abject failure of the trashcan 2013 Mac Pro, it was poised to be the first Apple machine that could legitimately provide the power that professionals in creative fields — historically, the folks who turn out in droves to buy these Apple machines — really need.
+
+But while it was a gorgeous and powerful computer, it also had some issues. We bought a $16,599 model, and while that wasn’t the most specced-out option, it was one that creative professionals around The Verge and Vox Media felt could handle their heavy editing workloads. We gave that computer to all kinds of artists, producers, and designers. And they didn’t love it. They didn’t feel it was any faster than their years-old setups, and they ran into all the same issues they always did. In particular, not enough software was optimized for that Mac Pro’s approach to high-performance desktop computing, especially when it came to GPUs.
+
+The Studio is Apple’s first professional computer running Apple Silicon
+Since then, Apple has committed to making its own Apple Silicon chips, moving away from Intel and AMD. The first line of those chips, the M1 series, has been a smashing success in Mac laptops, the iMac, and the Mac Mini. And now it’s in the new Mac Studio, which comes in configurations with the M1 Max and new M1 Ultra chips. The Studio is Apple’s first professional computer running Apple Silicon, and with it comes a new way of designing chips that makes it easier for apps to access all the performance available.
+
+I’ve, once again, given this device to a host of professionals on The Verge’s team, and the reactions I saw couldn’t be more different from those we saw in 2020. They were impressed. For their workloads, it’s faster than anything they’ve ever used. It’s changed what they can do.
+
+So I’m relieved that I can finally, finally write this in a review: the Mac Studio is the computer professional Mac users have been waiting for.
+
+Good Stuff
+
+Freakin’ fast
+Compact design
+Finally, the ports that everyone needs
+Bad Stuff
+
+Not the most impressive graphics scores
+Expensive
+What you buy is what you’re stuck with
+The Mac Studio is a nice-looking, compact computer. Someone mentioned to me that it looks like two Apple TVs stacked on top of each other, and now I can’t unsee it. You might also see it as a taller Mac Mini — either way, it’s a design Apple fans have seen before.
+
+Like the Mac Mini, the Studio is designed to sit on your desk — it has the exact same footprint, just about twice as tall. It’s not like the Mac Pro that lives on the floor (or gets wheeled around if you’re particularly fancy). It’s dense, though, especially if you have the most powerful M1 Ultra model, which includes a heat sink that makes it two whole pounds heavier than the starting configuration with an M1 Max chip. The Studio isn’t really designed to be carried around places, but if you pick it up, you’ll notice its weight.
+
+What’s really great about the chassis is the port selection. There are actually ports on the front, including an SD card slot, which is a huge benefit for creative professionals. I was not prepared for how happy these accessible ports would make me. Every time I could plug something in without having to get up and duck behind my machine, it just made my day a little bit better.
+
+Yes, you can run five displays out of a single Mac Studio at the same time if you want
+There are also two USB-A ports in the back, which I’m very happy to see that Apple didn’t eliminate like it did on the 2021 iMac. These, in addition to being convenient for people like me who refuse to give up their USB-A mice and such, are another big bonus for professionals who use flash drives to transfer software and assets between clients. There are also four Thunderbolt 4 ports and an HDMI port on the back — and yes, you can run five displays out of a single Mac Studio at the same time if you want.
+
+This is all well and good — but the big news about the Mac Studio is what’s on the inside.
+
+ The Mac Studio beneath the Studio Display on a wooden table.
+It barely fits under there, but it fits.
+While the Mac Studio is configurable, there are two general models you can buy. (And it’s not modular or user-upgradable at all, so what you buy is what you’re stuck with.) The base model starts at $1,999 and includes the M1 Max, a super-powerful chip with 10 CPU cores and up to 32 GPU cores. That’s exciting in itself because for the past year, the only place you’ve been able to get that chip is in the MacBook Pro.
+
+But there’s an even more expensive Mac Studio that starts at nearly $4,000. This one includes the M1 Ultra, which is Apple’s brand-new chip debuting in this device. This chip is a monstrosity — Apple has essentially taken two M1 Maxes and stapled them together, creating one big processor with double the CPU cores (20), double the GPU cores (up to 64), and double the memory bandwidth, at 800GBps.
+
+Apple isn’t the first to try to smush two GPUs into one chip; other companies have tried similar things in the past. And, of course, you can always stick two graphics cards into one computer if your software supports it. The idea seems like a bit of a no-brainer: if you’re running a compute workload that’s very graphics-heavy, you can essentially split that workload between the two GPUs.
+
+But that’s actually no easy task. Historically, it’s been up to individual programs to figure out how to make those GPUs work together, and divvying up an intensive task between two separate cards is actually very difficult to automate. It takes a lot of work to make sure that the chips are keeping pace with each other — if one is slightly out of sync with the other at any point, it can throw off an entire operation. So instead, software generally just puts the two GPUs to work doing separate things.
+
+With the M1 Ultra, Apple is trying something a bit different. Instead of just throwing two M1 Maxes into one computer, it’s using a technique it calls UltraFusion to connect two chips in a way that makes it appear to the system as one chip. There’s a built-in connection for this technique on the chip die itself that allows for a whopping 2.5 terabytes per second of bandwidth between the M1 Maxes. Apple’s claim is that this gargantuan datastream will allow these two chips and macOS to talk to each other well enough that they can divvy any given task correctly between themselves. In other words, an application like Premiere won’t need to be modified to support a dual-GPU setup — it will see the M1 Ultra as one GPU, it will give it tasks, and the Ultra will just get them done.
+
+Here’s the thing: it works.
+
+ The back of the Apple Studio Display showing its standard tilt-adjustable stand.
+Don’t worry: there are ports on the Studio Display too.
+Apple sent us basically the most powerful Mac Studio money can buy, with the 20-core M1 Ultra, a 64-core GPU, and 128GB of unified memory. If you want to buy this, it’ll cost $6,199. (You can push that price up to $7,999 by adding up to 8TB of internal storage, but it doesn’t get any more powerful than this.) We also received an M1 Max review unit with its 10-core CPU, a 32-core GPU, 64GB of unified memory, and 2TB of storage, which costs $3,199.
+
+ The back of the Mac Studio and Studio display seen from the bottom left corner. Cords are plugged into two of the USB-C ports and the power port.
+Ports!
+This article is going to be a departure from my normal reviews because many of my impressions are coming from observation. I could’ve used Google Docs all day on the Mac Studio and had a grand old time. But I’m nowhere near the target audience for this machine, and we have plenty of professionals on The Verge team who do work on video, audio, and graphics all day long.
+
+So I carried the eight-pound M1 Ultra-equipped Mac Studio around the Verge office, I plonked it onto various people’s desks, and I watched them work.
+
+ Two Mac Studio models and two monitors side by side on a wooden table in a living room space.
+That’s the M1 Ultra Studio with the nano-texture Studio Display on the left, and the M1 Max Studio with the standard Studio Display on the right.
+The first thing I noticed was that every professional I gave this machine to was able to sit down and get cooking on this device basically immediately without any major problems. That was not at all the case with the Mac Pro, where people were constantly having to fix various software hiccups before they could really do their job.
+
+The other thing I want to emphasize is that this computer is shockingly quiet for the power it offers. Even when we were doing elaborate things in Adobe After Effects and Blender, stuff that would have had the fans on any Intel desktop I’ve ever used absolutely roaring, the Studio was inaudible. I’d put my ear to the case, and while I could literally feel the fans vibrating beneath me, they were still silent. And the only time we ever felt it blowing hot air was during gaming, which we’ll get to later.
+
+ A user types on the Apple Mac Studio keyboard.
+Oh, yeah, and the keyboard is black now.
+With many recent professional Mac reviews, the story has been: Apple makes great hardware, but the software — specifically Adobe’s Creative Cloud — isn’t optimized for Apple’s ideas.
+
+But at this point, Adobe has had quite a bit of time to catch up. Apple has sold a whole bunch of M1 devices — the demand is here, and Adobe has responded. Premiere, Photoshop, Lightroom, Audition, Media Encoder, and more are running natively on Apple Silicon (and After Effects is available in beta). And the story has basically flipped: the Mac Studio now appears to be one of the few computers that can unlock the full power of Adobe’s software.
+
+The Mac Studio now appears to be one of the few computers that can unlock the full power of Adobe’s software
+
+Now, before I get into all this, a quick disclaimer: I know that creative professionals are not the only “pros” out there. The programs we were able to test here may well not be the programs you, yourself, use. The perspectives we’re able to get for a review like this are limited to the people we have on our team for NDA reasons, and I’ll always prefer a review featuring a small group of people who really know what they’re talking about over one that tries to speak to thousands of use cases I don’t have expertise in. With that said, you should never use a single review as your only datapoint, and I encourage you to seek out people from a wide variety of industries who have taken this thing for a spin.
+
+All that said, the professionals I work with love the Mac Studio. And throughout our entire review process, I did not see a single spinning wheel.
+
+ The Mac Studio on a black surface seen from above.
+The M1 Max model is 5.9 pounds (2.7 kg), and the M1 Ultra model is 7.9 pounds (3.6 kg).
+My first stop was Becca Farsace, our video director who edited the entire video review of the Mac Studio and Studio Display (which you should go watch if you haven’t already) on our Studio unit. I watched her work in Premiere and Media Encoder for hours, and even to my amateur eyes, it was clear that the Studio was flying. It was miles better than our two-year-old Mac Pro (which Becca uses for most of her work) at basically everything.
+
+Becca was able to play 4K, 10-bit 4:2:2 footage from a Sony FX3 at full resolution in Adobe Premiere Pro at 4x speed with no proxies. It was lightning fast. On any other machine, she’d have had to be in half-resolution at most. There was also no lag between hitting the spacebar and stopping playback when playing footage at 2x or 4x speed, something she finds to be a big annoyance on the Mac Pro.
+
+I asked our video team if they’d be willing to test Apple’s Final Cut Pro, but they didn’t want to because none of them use it. The reality is that Premiere is the standard in their field, and a computer marketed to video professionals needs to be good at running it. I’m sure Final Cut works great on the Studio, and more power to you if it’s your software of choice, but there’s basically nothing Apple could do that would make our team switch to it.
+
+ The Apple Mac Studio, the bottom portion of the Studio Display, Apple’s keyboard, and a gaming mouse on a dark table.
+The keyboard, display, and mouse are all optional — some of my coworkers brought their own accessories.
+I next talked to Andrew Marino, our senior audio director who makes The Vergecast and mixes the audio for our videos. He blazed through workloads in Avid’s Pro Tools and Adobe Audition — no slowdown, no spinning wheels. I watched him hop through a project with 36 tracks, and things that take a couple seconds on the 2019 MacBook Pro he uses for work were instantaneous here.
+
+Andrew felt that the Studio would be overkill for his podcasting workload, which is generally light enough for Intel MacBooks to handle, especially since, in his experience, podcasters sometimes need to edit on the go. But for music production in a studio setting, he thought it could make a huge difference. Namely, the Mac Studio can actually be used for professional music work, which his MacBook basically can’t do. I watched him mix a music project with seven tracks and a whole bunch of plugins on both machines. The Studio cruised through it; the MacBook played it back for literally one second before the CPU got overloaded and the program crashed.
+
+The person whose workload gave the Studio the most trouble was Alex Parkin, our video art director, who took Adobe After Effects for a spin using colors, glows, gradients, motion blur, and all kinds of effects at full resolution. Alex did see a slight lag between when he’d press the spacebar and when playback would start or stop, and he wasn’t blown away by the playback speed. But he was still able to get his work done much more quickly than he can on the various Intel iMacs we have in our office. He said it felt about twice as fast as the 2015 iMac with a Core i7 and Radeon R9 M395X that he usually uses.
+
+The Studio was actually more than twice as fast as a 2019 Core i9 iMac at rendering one of his graphics. Honestly, the most telling thing is that an hour or so after he finished testing the Studio for me, Alex came back and asked to borrow it for an export.
+
+ The Apple Mac Studio, Studio Display, keyboard, and mouse on a black table in a cafe setting.
+Don’t worry, Alex — I’m going to miss using this too.
+The creator who saw the most in-your-face improvement, though, was our illustrator Alex Castro. I watched this Alex use the Studio to composite an image in Photoshop — he took renders from Blender, brought in high-resolution photos from Unsplash, color corrected, and added details. He said that processes like de-noising took about 10 percent of the time that they do on the PC he usually uses, which has a Core i7, a GTX 1080, and a GTX 1070. Material previewing was much faster as well — he said he’d be able to do more with hair and cloth if he had a Studio.
+
+But the Ultra also enabled Alex to use features of Photoshop that he’s never been able to use before. The process that blew all of our professionals’ minds was the brushes. Alex was able to paint a white layer with a media brush, and it was instant — it really looked like he was painting with a physical brush. That tool requires so much computing power that many current machines can’t handle it. It was a breeze for the Studio.
+
+“Having a machine like this in my daily process would change everything,” Alex told me after his testing period.
+
+And that’s ultimately my biggest takeaway from this testing process. I’ve reviewed a whole bunch of computers in my career that are aimed at this exact market. I often get a workstation that seems like it can keep up with various creative workflows. I’ve never reviewed one that seemed like it could change the sorts of things creators can make. And that’s what I heard across the board. Not only did this device allow them to try more powerful, more advanced tools, but the speed it delivered also freed up huge chunks of their time to focus on other projects.
+
+ The Mac Studio, Mac Studio Display, keyboard, and mouse seen from the front on a wooden table.
+The power and efficiency inside this little box are pretty remarkable.
+The suite of benchmarks we ran largely backed up our team’s findings. In CPU performance, the M1 Ultra is in a league of its own. Compare this to our Mac Pro model with a 16-core Intel Xeon W, and across our CPU benchmarks, there was really no contest: the Xeon is outclassed.
+
+We ran a few different benchmarks across Premiere Pro and After Effects, and the M1 Ultra beat our Mac Pro model in every single one. The Mac Pro took over two minutes longer than the Studio to export a 4K video in Premiere Pro. In fact, the Ultra was so dominant in Premiere that it was beating systems with AMD Ryzen Threadripper chips left and right in the Puget Systems database. It’s beating almost everything.
+
+Across a variety of applications, our Intel Mac Pro just could not keep up. Our $12,000 PC with a 32-core Ryzen Threadripper 3970X did beat the M1 Ultra on Geekbench multi-core, but the Ultra was much, much closer to the Threadripper than it was to the Xeon. That’s a big achievement considering how many more cores the 3970X has (and also the fact that a Threadripper PC is going to be massive and loud, while this thing is small and silent).
+
+Oh, and yes: the M1 Ultra really is about twice as powerful in some benchmarks as an M1 Max. On the multi-core benchmarks in Cinebench and Geekbench, the M1 Ultra was consistently getting double the scores of the M1 Max. This did not translate to doubled scores in the real-world tasks, such as the Puget benchmarks, gaming, and the NPBench Python benchmarks that we ran to simulate scientific workloads — there are clearly bottlenecks here that aren’t just based on throughput, and performance will always reflect how well the program you’re in can use all these extra cores and threads. Still, it’s seriously impressive that Apple pulled UltraFusion off like this.
+
+It was a different story with graphics performance, however. Apple, in its keynote, claimed that the M1 Ultra would outperform Nvidia’s RTX 3090. I have no idea where Apple’s getting that from. We ran Geekbench Compute, which tests the power of a system’s GPU, on both the Mac Studio and a gaming PC with an RTX 3090, a Core i9-10900, and 64GB of RAM. And the Mac Studio got… destroyed. It got less than half the score that the RTX 3090 did on that test — not only is it not beating Nvidia’s chip, but it’s not even coming close.
+
+On the Shadow of the Tomb Raider benchmark, the RTX was also a solid 30 frames per second faster. Now, this is Apple gaming, of course, so Tomb Raider was not a perfect or even particularly good experience: there was substantial, noticeable micro stutter at every resolution we tried. This is not at all a computer that anyone would buy for gaming. But it does emphasize that if you’re running a computing load that relies primarily on a heavy-duty GPU, the Mac Studio is probably not the best choice.
+
+If you are considering buying the Mac Studio, you have a big decision to make: the Ultra or the Max? Our team used them both. In general, the consensus was that the Ultra is a bit faster. Like, maybe a millisecond or two. But that was pretty consistent across rendering, scrubbing, and everything else they did. And those tiny improvements did add up to a slight but noticeable difference.
+
+On the other hand, everyone emphasized, the Max is still very fast and also faster than any of the devices they commonly use. My sense is that the Ultra, for these sorts of workloads, is not twice as fast as the Max — or if it is, the Max is already so fast that a half-wise decrease is somewhat negligible. It does not, to me, seem $2,000 faster.
+
+But you know your workload best, and you’ll need to consider how much a small increase in things like render time and scrubbing speed is worth it for you and how much the extra performance headroom of the Ultra might be worth over the lifespan of the machine. If you’re someone who needs every ounce of speed they can get and can pay for it, the Ultra is your choice — but while the folks I talked to here all said they’d use the Ultra if they had the choice, nobody felt that the Max was inadequate for their current workload. That’s about how our benchmarks bore out as well.
+
+ The Mac Studio rested on its side edge on a wooden table with the bottom and Mac Studio logo visible.
+Not that you’ll spend much time looking at it, but the bottom of this is pretty neat.
+At the end of the day, I can talk your ear off about benchmarks and export times. But to me, personally, the best thing about this computer is that it works. I did not see anything crash or not work the way it was supposed to.
+
+What I did see was a host of professionals being shocked by how much they could get done on this machine. They were using the same software they use every day, but they were doing things with it they’ve never been able to do before.
+
+The best thing about this computer is that it works
+This is why companies like Apple put out slightly more powerful versions of the same computers every year, and this is why people keep buying them every year, despite the fact that reviewers often find such upgrades boring. It’s so people can do more and do it better.
+
+There are very legitimate reasons that the Mac Studio is the wrong computer for all kinds of people. And as a reviewer scoring this product, I care so much less about those than I do about the sheer reliability of this device: the smoothness as you scrub the timeline, the snap of windows opening and closing, the wonder in people’s voices as they say “Wow, this is fast.”
+
+UltraFusion is not a kooky new idea that Apple is wasting our time with. It’s real. Companies have been trying to mush two GPUs into one for over a decade, and Apple finally did it. This computer is a historic achievement. And using it feels like a privilege.

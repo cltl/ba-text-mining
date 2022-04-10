@@ -1,0 +1,57 @@
+The Mac Studio is the first entirely new entry in the Mac product line in a very long time. It’s a kind of Mac—the mid-range-desktop—that used to be common, but vanished shortly after Steve Jobs returned to Apple. It’s more powerful than an iMac or Mac mini but more affordable than a Mac Pro.
+
+The Mac Studio isn’t for everyone, that’s for sure. Some will find it utterly boring—but others will consider it the fulfillment of a decades-long dream. For the moment, it’s the fastest Mac ever made—and yet if you’re a MacBook Pro user, you might find that your laptop offers equivalent performance.
+
+The beauty of the Mac Studio is, I suppose, in the eye of the beholder. I bought one for myself on the day the product was announced, and after a week of using one provided by Apple, I’m sticking with that purchase, but plenty of people will be better served by a different Mac model. In fact, that might be the most beautiful thing about the Mac Studio: It fills a very specific ecological niche to perfection.
+
+
+Function over form
+
+
+Back in the olden days, Apple made a load of different desktop Macs in different shapes and at different prices. The pizza box, the mid-range desktop, and the tower were standard configurations of Power Mac. But during this century (with the brief and interesting exception of the Power Mac G4 Cube) if you’ve wanted to plop a Mac on your desk, your choices have been the iMac, the Mac mini, or the (increasingly expensive) Power Mac/Mac Pro.
+
+
+The Power Mac G4 Cube was a little bit taller.
+And now, here in 2022, there is suddenly a fourth choice, the closest thing to a minitower Mac since the beige Power Mac G3 desktop. But Apple didn’t go back to the drawing board when it came to designing the Mac Studio: It’s really a very tall Mac mini. Like the Mac mini, it’s a silver aluminum block 7.7 inches long and wide, but it’s 3.7 inches high, making it about as tall as two and a half Mac minis.
+
+The Mac Studio’s front is featureless except for a small power light, two USB-C ports, and an SD card slot. If Apple’s designers were going for “utilitarian minitower,” they nailed it. I wouldn’t really call the Mac Studio attractive—in fact, I think it’s kind of homely. But that may be the point: this is a computer designed to be used, not to be looked at as a piece of art. When you choose to stick ports on the front of a computer—hey everybody, Apple put ports on the front!!—you are choosing function over form. That’s the story of the Mac Studio.
+
+Apple hasn’t skimped on the Mac Studio when it comes to what a certain portion of its customer base wants—connectivity. I used the SD card on the front of the Mac Studio twice on the very first day I had it connected. I also plugged a keyboard into that front USB port. (My test unit was an M1 Max model, so those front ports were USB-C; on models with the M1 Ultra chip, they’re full-fledged Thunderbolt 4.)
+
+And then there’s the full array of ports on the back: Four Thunderbolt 4, two USB-A, HDMI, a headphone jack, and 10Gb Ethernet. While I didn’t fill up all of those ports, I did transfer an array of cables and adapters from the back of my iMac Pro to the Mac Studio and didn’t have to dig out a single adapter or find a USB hub to accommodate them.
+
+M1 family similarities
+
+The M1 Ultra chip in the Mac Studio is something we’ve never seen before, and it has the potential to make the high-end Mac Studio the fastest Mac ever released by a wide margin. Unfortunately, the Mac Studio Apple provided to me for review was an M1 Max version (32-core GPU, 2TB, 64 GB of RAM) that lists for $3199. I look forward to seeing if the M1 Ultra is truly twice as fast as the M1 Max, but I expect that the Mac Studio with M1 Ultra will be so fast that any future Mac Pro will become even more of a niche product for the most deep-pocketed high-end users.
+
+As for the M1 Max? If you know how fast an M1 Max-based 2021 MacBook Pro is, you know more or less how fast the M1 Max-based Mac Studio is. Just as we learned with the base M1 chip, which offers largely the same performance whether it’s in a MacBook Air, MacBook Pro, Mac mini, iMac, or even an iPad, it turns out that all of Apple’s chips perform quite similarly no matter the device they’re placed inside of.
+
+I ran a bunch of tests on the Mac Studio, the results of which you can see below, and they taught me two things: First, that the Mac Studio is comparable to a similarly-configured MacBook Pro. And second, I likened an M1 Max-based MacBook Pro to a “Mac Pro in your backpack” for a reason—this is Mac Pro-level performance, now starting at $1999.
+
+a bunch of speed charts
+Funny thing about Apple silicon: Apple’s not kidding when it comes to power consumption. For 15 years, I’ve used an auto-switching power strip in conjunction with my desktop computers. When the computer turns off, the power strip automatically turns off many other devices—powered speakers, USB hubs, you name it.
+
+The Mac Studio, even with its powerful M1 Max processor, freaked the power strip out. It kept clicking between on and off states because the Mac Studio uses so little power compared to a traditional computer that it dips below the power strip’s threshold. (I just ordered a new power strip with an adjustable threshold.)
+
+Desktop invader
+
+
+Cables on a desk might be ugly, but the utility of many ports is beautiful.
+I’ve been using a 27-inch iMac for more than seven years, so replacing that iMac with a Mac Studio and the new Studio Display (see my complete review of the Studio Display) was a bit of a shock. Instead of threading all my cables through a single channel and into the back of my iMac, I’ve got a relatively thin, cable-free display—and then a big aluminum slab with a lot of cables sticking out the back. My desk is now more cluttered than it was before.
+
+I’m still not used to it. I’m hoping that there will soon be under-desk mounts for the Mac Studio, so I can hide it away from view altogether.
+But that’s me—other people will probably not have any issue with having a little block of aluminum chugging away on the desk, attached to an external display.
+
+Speaking of chugging, I should mention that the Mac Studio has a fan—about half of its volume is taken up with a cooling system—and that fan seems to run constantly. It’s very quiet, throwing out low-level white noise that I couldn’t hear unless I sat in my office when it was completely quiet. But the sound is very much there, in a way my iMac Pro fan never was, and if you’re ultra-sensitive to fan noise in quiet environments, you will notice it. The good news is, not only is it quiet, the noise also seems fairly consistent. I threw graphics- and CPU-intensive tasks at the Mac Studio, and I couldn’t get the fan to sound any louder, at least to my ears.
+
+The calculus of desktop living
+
+With the arrival of the Mac Studio and the disappearance of the 27-inch iMac (for now, at least), a lot of people who were anticipating a new large iMac will now be pondering exactly what their next Mac purchase should be.
+
+The Mac Studio is a good choice if you’re committed to the desktop lifestyle and have a display handy (or are buying the new Studio Display). If you’re someone who also uses a laptop, it might be worth considering that the Mac Studio with the M1 Max processor is almost identical in performance to the MacBook Pro with the M1 Max processor. If the M1 processor is powerful enough for your needs, there’s no need for a Mac Studio—a 24-inch iMac will suit, as will a Mac mini.
+
+As someone who works in pro apps and uses processor-intensive audio software, the Mac Studio feels like the right choice for me. And while I can’t personally vouch for the speed of the M1 Ultra version of the Mac Studio, I’d expect it to be roughly twice as fast as the M1 Max, making it a great choice for people who have huge CPU or GPU needs but don’t need the trappings (internal storage, expansion cards) of a Mac Pro.
+
+The Mac Studio isn’t for everyone. But for the people who have been dreaming of something in between a Mac mini and a Mac Pro, something that wasn’t an iMac, it’s the fulfillment of a dream.
+
+I guess I’m just going to have to get used to having a computer on my desk again.

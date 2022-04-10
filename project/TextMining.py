@@ -1,13 +1,22 @@
 import requests
 import re
 import numpy
-import nltk 
 import spacy
 nlp = spacy.load('en_core_web_sm')
-#nltk.download('vader_lexicon')
-from nltk.sentiment import vader
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-vader_model = SentimentIntensityAnalyzer()
+
+def load_vader():
+    from nltk.sentiment.vader import SentimentIntensityAnalyzer
+    return SentimentIntensityAnalyzer()
+
+try:
+    vader_model = load_vader()
+except LookupError as e:
+    print(e)
+    print('Attempting to download automatically...')
+    import nltk 
+    nltk.download('vader_lexicon')
+    vader_model = load_vader()
+    print('Success')
 
 
 api_url = 'https://api.twitter.com/2/tweets/search/recent'
@@ -29,7 +38,7 @@ def search_twitter(query, bearer_token, results: int = 10):
     if response.status_code != 200:
         print('Error: Status Code '+str(response.status_code))
         return
-    if not 'data' in response.json().keys():
+    if not 'data' in response.json():
         print('Error: No tweets found')
         return
     return response.json()
@@ -50,7 +59,7 @@ def get_replies(id, bearer_token, results: int = 10):
     if response.status_code != 200:
         print('Error: Status Code '+str(response.status_code)+': '+response.text)
         return
-    if not 'data' in response.json().keys():
+    if not 'data' in response.json():
         #print('Error: No replies found')
         return
     return response.json()
@@ -65,7 +74,22 @@ def analyze_topic(
     reply_weight = 1
 ):
     tweets = search_twitter(query, bearer_token, num_parents)
-    if tweets:
+    return analyze_tweets(
+        tweets,
+        minimum_likes=minimum_likes,
+        num_replies=num_replies,
+        parent_weight=parent_weight,
+        reply_weight=reply_weight
+    )
+
+def analyze_tweets(
+    tweets, 
+    minimum_likes = 5,
+    num_replies: int = 10,
+    parent_weight = 1,
+    reply_weight = 1
+):
+    if tweets and 'data' in tweets:
         sentiments = []
         for tweet in tweets['data']:
             if tweet['public_metrics']['like_count'] >= minimum_likes:
@@ -80,7 +104,7 @@ def analyze_topic(
 
             if num_replies:
                 replies = get_replies(tweet['id'], bearer_token, num_replies)
-                if replies:
+                if replies and 'data' in replies:
                     for reply in replies['data']:
                         metrics = reply['public_metrics']
                         if metrics['like_count'] >= minimum_likes:
@@ -92,6 +116,7 @@ def analyze_topic(
                                         'weight': reply_weight*(1 + metrics['retweet_count'] + metrics['quote_count'] + metrics['like_count'])
                                     }
                                 )
+
         weighted_average = numpy.average(
             [item['sentiment'] for item in sentiments],
             weights = [item['weight'] for item in sentiments]
@@ -179,13 +204,14 @@ What would you like to do?
 
     if mode=='1':
         topic = '"'+input('Enter a topic to analyze: ').strip()+'"'
-        num_p = input('How many parent tweets to get? (10-100, default=10) ')
-        num_p = num_p if num_p else 10
+        num_p = input('How many parent tweets to get? (10-100, default=100) ')
+        num_p = num_p if num_p else 100
         num_r = input('How many reply tweets to get? (10-100, default=0) ')
         num_r = num_r if num_r else 0
 
         print('Analyzing topic...')
-        snt = analyze_topic(topic, bearer_token, num_replies=num_r, num_parents=num_p)
+        tweets = search_twitter(topic, bearer_token, num_p)
+        snt = analyze_tweets(tweets, num_replies=num_r)
     elif mode=='2':
         match = None
         while not match:
@@ -194,29 +220,12 @@ What would you like to do?
             if not match:
                 print('Error: Not a valid tweet URL')
         conversation_id = match.group(1)
-        num_r = input('How many reply tweets to get? (10-100, default=10) ')
-        num_r = num_r if num_r else 10
+        num_r = input('How many reply tweets to get? (10-100, default=25) ')
+        num_r = num_r if num_r else 25
 
         print('Analyzing replies...')
         tweets = get_replies(conversation_id, bearer_token, num_r)
-        if tweets:
-            sentiments = []
-            for tweet in tweets['data']:
-                if tweet['public_metrics']['like_count'] >= 1:
-                    s = sentiment(tweet['text'])
-                    if s:
-                        sentiments.append(
-                                {
-                                    'sentiment': s,
-                                    'weight': 1 + tweet['public_metrics']['retweet_count'] + tweet['public_metrics']['quote_count'] + tweet['public_metrics']['like_count']
-                                }
-                            )
-            snt = numpy.average(
-                [item['sentiment'] for item in sentiments],
-                weights = [item['weight'] for item in sentiments]
-            )
-        else:
-            continue
+        snt = analyze_tweets(tweets, num_replies=0)
     elif mode=='3':
         filename = input('Enter path to file: ')
         with open(filename) as file:
@@ -226,5 +235,6 @@ What would you like to do?
     else:
         break
 
-    print('Done! Found overall ' + sentiment_to_sentence(snt) + ' sentiment (' + str(numpy.round(snt, 4))+')')
-    print(sentiment_to_line(snt))
+    if snt:
+        print('Done! Found overall ' + sentiment_to_sentence(snt) + ' sentiment (' + str(numpy.round(snt, 4))+')')
+        print(sentiment_to_line(snt))
