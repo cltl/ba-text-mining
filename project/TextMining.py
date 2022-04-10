@@ -22,7 +22,20 @@ except LookupError as e:
 api_url = 'https://api.twitter.com/2/tweets/search/recent'
 bearer_token = 'AAAAAAAAAAAAAAAAAAAAAIyUagEAAAAAwJxB%2BsJcNlgKNgKMKifUDwQXng4%3DXRKHHBl5MeXoeYlDra1KYstSRKM3D3WjTsaBt2cgktFOJYplTe'
 
-def search_twitter(query, bearer_token, results: int = 10):
+def search_twitter(payload, bearer_token):
+    auth = {
+        'Authorization': 'Bearer '+str(bearer_token)
+    }
+
+    response = requests.get(api_url, params=payload, headers=auth)
+
+    if response.status_code != 200:
+        print('Error: Status Code '+str(response.status_code))
+        return
+    return response.json()
+
+
+def get_tweets(query, bearer_token, results: int = 10):
     payload = {
         'query': 'lang:en '+str(query),
         'max_results': results,
@@ -30,18 +43,7 @@ def search_twitter(query, bearer_token, results: int = 10):
         'tweet.fields': 'id,text,public_metrics'
     }
 
-    auth = {
-        'Authorization': 'Bearer '+str(bearer_token)
-    }
-
-    response = requests.get(api_url, params=payload, headers=auth)
-    if response.status_code != 200:
-        print('Error: Status Code '+str(response.status_code))
-        return
-    if not 'data' in response.json():
-        print('Error: No tweets found')
-        return
-    return response.json()
+    return search_twitter(payload, bearer_token)
 
 def get_replies(id, bearer_token, results: int = 10):
     payload = {
@@ -51,54 +53,27 @@ def get_replies(id, bearer_token, results: int = 10):
         'tweet.fields': 'text,public_metrics'
     }
 
-    auth = {
-        'Authorization': 'Bearer '+str(bearer_token)
-    }
-
-    response = requests.get(api_url, params=payload, headers=auth)
-    if response.status_code != 200:
-        print('Error: Status Code '+str(response.status_code)+': '+response.text)
-        return
-    if not 'data' in response.json():
-        #print('Error: No replies found')
-        return
-    return response.json()
-
-def analyze_topic(
-    query, 
-    bearer_token, 
-    minimum_likes = 5,
-    num_parents: int = 10, 
-    num_replies: int = 10,
-    parent_weight = 1,
-    reply_weight = 1
-):
-    tweets = search_twitter(query, bearer_token, num_parents)
-    return analyze_tweets(
-        tweets,
-        minimum_likes=minimum_likes,
-        num_replies=num_replies,
-        parent_weight=parent_weight,
-        reply_weight=reply_weight
-    )
+    return search_twitter(payload, bearer_token)
 
 def analyze_tweets(
     tweets, 
-    minimum_likes = 5,
     num_replies: int = 10,
+    parent_minimum_likes = 5,
+    reply_minimum_likes = 1,
     parent_weight = 1,
     reply_weight = 1
 ):
     if tweets and 'data' in tweets:
         sentiments = []
         for tweet in tweets['data']:
-            if tweet['public_metrics']['like_count'] >= minimum_likes:
+            metrics = tweet['public_metrics']
+            if metrics['like_count'] >= parent_minimum_likes:
                 s = sentiment(tweet['text'])
                 if s:
                     sentiments.append(
                             {
                                 'sentiment': s,
-                                'weight': parent_weight*(1 + tweet['public_metrics']['retweet_count'] + tweet['public_metrics']['quote_count'] + tweet['public_metrics']['like_count'])
+                                'weight': parent_weight*(1 + metrics['retweet_count'] + metrics['like_count'])
                             }
                         )
 
@@ -107,13 +82,13 @@ def analyze_tweets(
                 if replies and 'data' in replies:
                     for reply in replies['data']:
                         metrics = reply['public_metrics']
-                        if metrics['like_count'] >= minimum_likes:
+                        if metrics['like_count'] >= reply_minimum_likes:
                             s = sentiment(reply['text'])
                             if s:
                                 sentiments.append(
                                     {
                                         'sentiment': s,
-                                        'weight': reply_weight*(1 + metrics['retweet_count'] + metrics['quote_count'] + metrics['like_count'])
+                                        'weight': reply_weight*(1 + metrics['retweet_count'] + metrics['like_count'])
                                     }
                                 )
 
@@ -122,17 +97,19 @@ def analyze_tweets(
             weights = [item['weight'] for item in sentiments]
         )
         return weighted_average
+    else:
+        print('Error: No tweets to analyze')
 
 def sentiment_to_sentence(value, min=-1, max=1):
-    if value < min+(max-min)*0.17:
+    if value < min+(max-min)*(1/6):
         return "strongly negative"
-    elif value < min+(max-min)*0.33:
+    elif value < min+(max-min)*(2/6):
         return "moderately negative"
-    elif value < min+(max-min)*0.5:
+    elif value < min+(max-min)*(3/6):
         return "slightly negative"
-    elif value < min+(max-min)*0.67:
+    elif value < min+(max-min)*(4/6):
         return "slightly positive"
-    elif value < min+(max-min)*0.83:
+    elif value < min+(max-min)*(5/6):
         return "moderately positive"
     else:
         return "strongly positive"
@@ -141,8 +118,8 @@ def sentiment_to_line(value, min=-1, max=1):
     line = '----------|----------'
     pos = (value-min) / (max-min)
     pos = int(numpy.round(pos*len(line)))
-    line_val = line[:pos]+'*'+(line[(pos+1):] if pos<len(line) else '')
-    return '(-) ['+line_val+'] (+)'
+    line = line[:pos]+'*'+(line[(pos+1):] if pos<len(line) else '')
+    return '(-) ['+line+'] (+)'
 
 """
 #code below is to implement VADER with NLTK. Doesn't work yet though.    
@@ -210,7 +187,7 @@ What would you like to do?
         num_r = num_r if num_r else 0
 
         print('Analyzing topic...')
-        tweets = search_twitter(topic, bearer_token, num_p)
+        tweets = get_tweets(topic, bearer_token, num_p)
         snt = analyze_tweets(tweets, num_replies=num_r)
     elif mode=='2':
         match = None
