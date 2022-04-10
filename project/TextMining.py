@@ -1,4 +1,5 @@
 import requests
+import re
 import numpy
 import nltk 
 import spacy
@@ -34,14 +35,6 @@ def search_twitter(query, bearer_token, results: int = 10):
     return response.json()
 
 def get_replies(id, bearer_token, results: int = 10):
-    """
-    match = re.match(r'(?:https?:\/\/)?(?:www.)?twitter.com/[^/]*/status/([0-9]*)', url)
-    if not match:
-        print('Error: Not a valid tweet URL')
-        return
-    conversation_id = match.group(1)
-    """
-
     payload = {
         'query': 'lang:en conversation_id:'+str(id),
         'max_results': results,
@@ -58,7 +51,7 @@ def get_replies(id, bearer_token, results: int = 10):
         print('Error: Status Code '+str(response.status_code)+': '+response.text)
         return
     if not 'data' in response.json().keys():
-        print('Error: No replies found')
+        #print('Error: No replies found')
         return
     return response.json()
 
@@ -107,25 +100,28 @@ def analyze_topic(
     
 def sentiment(text):
     scores = vader_model.polarity_scores(text)
-    #remove print statements. only for debugging. Should return number only
-    
-#     print('INPUT SENTENCE', text)
-#     print('VADER OUTPUT: POS=', scores['pos'])
-#     print('POS:', scores['pos'], 'NEG:', scores['neg'], 'NEU:', scores['neu'], 'COMP:', scores['compound'])
+    return scores['compound']
 
-    if scores['pos'] and scores['neu'] < scores['neg']:
-#         print(0)
-        return 0 
-    elif scores['neg'] and scores['neu'] < scores['pos']:
-#         print(1)
-        return 1
-    elif scores['pos'] and scores['neg'] < scores['neu']:
-#         print(0.5)
-        return 0.5
+def sentiment_to_sentence(value, min=-1, max=1):
+    if value < min+(max-min)*0.17:
+        return "strongly negative"
+    elif value < min+(max-min)*0.33:
+        return "moderately negative"
+    elif value < min+(max-min)*0.5:
+        return "slightly negative"
+    elif value < min+(max-min)*0.67:
+        return "slightly positive"
+    elif value < min+(max-min)*0.83:
+        return "moderately positive"
     else:
-        print('No Sentiment Found')
-        return None
+        return "strongly positive"
 
+def sentiment_to_line(value, min=-1, max=1):
+    line = '----------|----------'
+    pos = (value-min) / (max-min)
+    pos = int(numpy.round(pos*len(line)))
+    line_val = line[:pos]+'*'+(line[(pos+1):] if pos<len(line) else '')
+    return '(-) ['+line_val+'] (+)'
 
 #code below is to implement VADER with NLTK. Doesn't work yet though.    
 def run_vader(textual_unit, 
@@ -164,8 +160,63 @@ def run_vader(textual_unit,
 
     return scores
     
-run_vader(text, lemmatize=True)
+#run_vader(text, lemmatize=True)
     
     
 # Only parent tweets for now - replies works, I'm just worried abt duplicates
-print(analyze_topic('"Mac Studio"', bearer_token, num_replies=100, num_parents=100))
+print("""Welcome to
+    ____             __  __       _    __          __         
+   / __ \____ ______/ /_/ /_     | |  / /___ _____/ /__  _____
+  / / / / __ `/ ___/ __/ __ \    | | / / __ `/ __  / _ \/ ___/
+ / /_/ / /_/ / /  / /_/ / / /    | |/ / /_/ / /_/ /  __/ /    
+/_____/\__,_/_/   \__/_/ /_/     |___/\__,_/\__,_/\___/_/     
+
+What would you like to do?
+[1] Analyize a topic
+[2] Analyze tweet replies""")
+mode = str(input('=> '))
+if mode=='1':
+    topic = '"'+input('Enter a topic to analyze: ').strip()+'"'
+    num_p = input('How many parent tweets to get? (10-100, default=10) ')
+    num_p = num_p if num_p else 10
+    num_r = input('How many reply tweets to get? (10-100, default=0) ')
+    num_r = num_r if num_r else 0
+
+    print('Analyzing topic...')
+    snt = analyze_topic(topic, bearer_token, num_replies=num_r, num_parents=num_p)
+elif mode=='2':
+    match = None
+    while not match:
+        parent = input('Enter URL of parent tweet: ')
+        match = re.match(r'(?:https?:\/\/)?(?:www.)?twitter.com/[^/]*/status/([0-9]*)', parent)
+        if not match:
+            print('Error: Not a valid tweet URL')
+    conversation_id = match.group(1)
+    num_r = input('How many reply tweets to get? (10-100, default=10) ')
+    num_r = num_r if num_r else 10
+
+    print('Analyzing replies...')
+    tweets = get_replies(conversation_id, bearer_token, num_r)
+    if tweets:
+        sentiments = []
+        for tweet in tweets['data']:
+            if tweet['public_metrics']['like_count'] >= 1:
+                s = sentiment(tweet['text'])
+                if s:
+                    sentiments.append(
+                            {
+                                'sentiment': s,
+                                'weight': 1 + tweet['public_metrics']['retweet_count'] + tweet['public_metrics']['quote_count'] + tweet['public_metrics']['like_count']
+                            }
+                        )
+        snt = numpy.average(
+            [item['sentiment'] for item in sentiments],
+            weights = [item['weight'] for item in sentiments]
+        )
+    else:
+        exit()
+else:
+    exit()
+
+print('Done! Found overall ' + sentiment_to_sentence(snt) + ' sentiment (' + str(numpy.round(snt, 4))+')')
+print(sentiment_to_line(snt))
