@@ -97,10 +97,6 @@ def analyze_topic(
             weights = [item['weight'] for item in sentiments]
         )
         return weighted_average
-    
-def sentiment(text):
-    scores = vader_model.polarity_scores(text)
-    return scores['compound']
 
 def sentiment_to_sentence(value, min=-1, max=1):
     if value < min+(max-min)*0.17:
@@ -123,11 +119,12 @@ def sentiment_to_line(value, min=-1, max=1):
     line_val = line[:pos]+'*'+(line[(pos+1):] if pos<len(line) else '')
     return '(-) ['+line_val+'] (+)'
 
+"""
 #code below is to implement VADER with NLTK. Doesn't work yet though.    
-def run_vader(textual_unit, 
+def run_spacey(textual_unit, 
               lemmatize=False, 
               parts_of_speech_to_consider=None,
-              verbose=0):
+              verbose=False):
 
     doc = nlp(textual_unit)
         
@@ -152,18 +149,19 @@ def run_vader(textual_unit,
 
     scores = vader_model.polarity_scores(' '.join(input_to_vader))
     
-    if verbose >= 1:
+    if verbose:
         print()
         print('INPUT SENTENCE', sent)
         print('INPUT TO VADER', input_to_vader)
         print('VADER OUTPUT', scores)
 
-    return scores
+    return scores['compound']
+"""
     
-#run_vader(text, lemmatize=True)
-    
-    
-# Only parent tweets for now - replies works, I'm just worried abt duplicates
+def sentiment(text):
+    scores = vader_model.polarity_scores(text)
+    return scores['compound']
+
 print("""Welcome to
     ____             __  __       _    __          __         
    / __ \____ ______/ /_/ /_     | |  / /___ _____/ /__  _____
@@ -220,7 +218,9 @@ elif mode=='2':
 elif mode=='3':
     filename = input('Enter path to file: ')
     with open(filename) as file:
-        snt = sentiment(file.read())
+        text = file.read()
+    doc = nlp(text)
+    snt = numpy.average([sentiment(str(s)) for s in doc.sents])
 else:
     exit()
 
