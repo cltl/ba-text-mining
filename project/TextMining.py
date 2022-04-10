@@ -173,8 +173,10 @@ print("""Welcome to
 
 What would you like to do?
 [1] Analyize a topic
-[2] Analyze tweet replies""")
+[2] Analyze tweet replies
+[3] Analyze arbitrary text""")
 mode = str(input('=> '))
+
 if mode=='1':
     topic = '"'+input('Enter a topic to analyze: ').strip()+'"'
     num_p = input('How many parent tweets to get? (10-100, default=10) ')
@@ -215,6 +217,10 @@ elif mode=='2':
         )
     else:
         exit()
+elif mode=='3':
+    filename = input('Enter path to file: ')
+    with open(filename) as file:
+        snt = sentiment(file.read())
 else:
     exit()
 

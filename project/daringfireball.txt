@@ -1,0 +1,85 @@
+In the latter half of the 2010s, the Mac was having a bad time.
+
+The small cylindrical Mac Pro introduced in 2013 was a dead end. The butterfly-switch keyboards used throughout the entire MacBook lineup were prone to failure (and, to most people’s tastes, didn’t have a good feel even when they were functioning perfectly). Apple’s most popular Mac, the MacBook Air, hadn’t been updated in years and lacked a retina display, making it look even more dated than it actually was (and it was quite dated). Apple stopped making standalone displays, assuming third-party display makers would fill the gap, and the gap was never filled with anything nearly approaching Apple’s own standards. Dependent on Intel, MacBooks were surpassed by iPads and even iPhones in chip performance — not just performance-per-watt but straight up speed. Apple’s iOS devices ran fast and cool and quiet; MacBooks, more and more, were running slow and hot and loud.
+
+Not good.
+
+But item by item, Apple started fixing what was wrong. The iMac Pro and then an all-new Mac Pro addressed everything wrong with the 2013 Mac Pro. Apple threw in the towel on revisions to the butterfly keyboards and shipped MacBooks with keyboards that are much more than merely reliable, they are downright great. They shipped a retina MacBook Air and people loved it. They moved the whole platform from Intel’s flailing x86 architecture to Apple silicon and stunned the industry with the results. They even recommitted to the Mac Mini, perhaps the most unassuming computer the company has ever made, but which plays an essential role in many workflows, both professional and consumer.
+
+The final wrong Apple needed to make right was a standalone display. Yes, they started their return to the display market in 2019 with the $5000 (and up) Pro Display XDR, but that’s like saying a vehicle company that had only been making trucks returned to the car market with a $150,000 race car. What Mac users wanted was seemingly obvious. A bright high-quality display at least 27 inches in size with at least 5K resolution, and Apple-caliber color management. Good speakers and microphones. An array of ports and integration to fill the much-needed role of a big-screen docking station for MacBook users. And a good built-in camera.
+
+The new Apple Studio Display aims to be just that. Alas, it falls woefully short in one of those regards.
+
+SCREEN
+
+The screen itself is great. Plenty bright, wonderful color, very sharp, perfectly consistent from corner to corner, and at 27 inches is a nice big size. My review unit is the $1600 base model with the standard glossy finish and tilt-only base. On my desk, it’s the perfect height; if I had the model with the adjustable-height base, I’d probably set it at this exact height anyway. My office gets enough direct sunlight — more on this below, don’t you worry — that I’m considering the model with nano-texture glass for my own purchase, but even on sunny days the standard glossy finish’s anti-reflective coating is as effective at reducing glare and reflection as one could hope.
+
+Sitting in front of it, there’s nothing to see except the screen itself and a half-inch thick black surrounding bezel. I love the way it looks.
+
+INTEGRATION AND HARDWARE DESIGN
+
+Integration-wise, it’s very good. It has three USB-C ports with up to 10 Gb/s speed, and one Thunderbolt 3 port. That Thunderbolt port is the one you connect your Mac to, and if that Mac is a MacBook, it charges at up to 96 watts, which, I believe, is all you could ask for. Apple includes a 1-meter Thunderbolt cable with the Studio Display and it’s perfect — black, and a very nice braided fabric cable. I’ve spent most of the last week testing the Studio Display not with the Mac Studio, but with an Apple silicon MacBook Pro, which is how I intend to use it personally, and how most Mac users will too. Apple stopped breaking down Mac sales by desktop/laptop years ago, for competitive purposes, but it’s no secret the overwhelming majority of Macs sold today are MacBooks of some sort. I believe that number was at least 80 percent in 2021, and will only go higher this year, despite Apple’s desktop lineup being better than ever.
+
+What I want from a desktop display for use with my MacBook is not to think about it. I want just one cable to plug in and out of my MacBook, and for everything to just work. When I plug the MacBook in, I want the display to just turn on and everything appear on screen at the size and position I expect. I want the MacBook to charge at a high speed through that one cable. When I want to take the MacBook away from the desk, I just want to unplug that one cable. That’s how the Studio Display works — for the most part. I personally do not like spanning across multiple displays, especially if they’re not the same size, so I keep my MacBook lid closed when connected to the Studio Display. A few times over the last week, upon connecting my MacBook Pro, the Studio Display turned on and my desktop picture was only 75 percent the size of the display, and the MacOS Dock was similarly confused about the size and resolution of the Studio Display. Here’s a screenshot from a few days ago when this happened. The handful of times I ran into this, I could fix it simply by opening the MacBook’s lid (which triggers a rejiggering to turn on both displays) and then closing it again a few seconds later (which triggers another rejiggering to put everything back on the Studio Display as the sole active display). This seems like a glitch with MacOS 12, not the Studio Display in particular. I haven’t used a standalone display with my MacBooks in a few years, so I can’t say how common this is with other displays. But I expect perfection in this regard.
+
+One thing that I greatly appreciate but is easy to take for granted is that the Studio Display does not require a power brick. It uses just a power cable with a simple prong at the end — which, like the aforementioned Thunderbolt cable, is black and made from the same nice braided fabric. Last year’s 24-inch M1 iMacs are strikingly thin in profile, but the cost of that remarkable thinness is that they require an external power brick that is pretty much the same size and weight as an Apple TV 4K. By my measurements, the 24-inch iMac display is about 11mm thick. The Studio Display is almost double that thickness: 19mm (~0.75 inches). That’s fine. The Studio Display is thin enough, and the extra thickness is well worth it for everything it provides, particularly the fact that it can charge a connected MacBook at 96 watts without using an external power brick.
+
+There is no power button. There are no buttons on the Studio Display at all, in fact. It is subtle, but when on, the Studio Display is constantly blowing a small amount of air out the top and bottom. The aluminum frame never gets the least bit warm, and the cooling system makes no sound whatsoever. The tilting hinge works great — sturdy enough that it never budges accidentally while plugging something into a USB port, and loose enough that it’s easily adjustable when desired. I suppose I’d like a space gray (or dare I dream, even black) option in addition to silver, but otherwise I wouldn’t change a thing about how it looks. Form-factor- and integration-wise, the Studio Display approaches perfection.
+
+AUDIO
+
+The built-in speakers sound great, and the built-in microphone array makes you sound good. Like many of Apple’s products with built-in speakers in recent years, they sound bigger, deeper, and clearer than possible given their size and inconspicuousness. There’s no need to wear headphones or use an external microphone during video chats (other than for privacy, obviously). In my testing, I sound better speaking into the Studio Display’s microphone array than I do using the microphones in my AirPod Pros.
+
+CAMERA
+
+Which brings us to the camera, which I find to be crushingly disappointing. Image quality is astonishingly poor, and Center Stage is glitchy.
+
+Apple says the Studio Display uses the same 12 megapixel ultra-wide camera as in recent iPads — including the new iPad Air. Here are two images of me at my desk, on a sunny afternoon. This one is from the new iPad Air’s front-facing camera:
+
+ Me at my desk, on a sunny afternoon, shot using the 2022 iPad Air front-facing camera.
+
+This one is from the Studio Display:
+
+ Me at my desk, on the same sunny afternoon, shot using the Studio Display camera.
+
+These two photos were taken seconds apart, in identical lighting. Yes that direct sunlight is harsh, but that’s where I sit, and the new iPad Air handles it well. The image from the Studio Display is terrible. And I’m not cherry-picking one bad image. I took dozens of photos, and the above is representative of the image quality you get from the Studio Display camera. These images, and the ones below, are also representative of the image quality during video calls.
+
+One of these is from a $600 iPad. The other from a $1600 display. Both are using the same camera hardware. It doesn’t make sense that they look so different, and makes less sense that the one that looks like ass is from the $1600 product. Yes, the iPad Air has the M1’s image signal processor, and the Studio Display uses its built-in A13 chip’s ISP, and the M1 is better than the A13. But not that much better.
+
+Even without harsh sunlight, all images from the Studio Display camera, in all lighting conditions, are grainy, lacking in contrast, and make skin tones look cadaveric. Here’s another comparison, taken at night.
+
+iPhone SE (3rd generation), front-facing camera:
+
+ Me at my desk at night, shot using the iPhone SE (3rd generation) front-facing camera.
+
+Studio Display:
+
+ Me at my desk at night, shot using the Studio Display camera.
+
+Again, these two photos were taken seconds apart, under identical lighting.
+
+Is the Studio Display camera unusable? No. I suppose it’s at least as good as the image quality from the camera on Apple silicon MacBooks. But that’s a low bar. MacBooks have thin lids, leaving very little room for cameras. The Studio Display is 0.75 inches thick. How can the image quality from the camera on a $1600 display be so much worse — laughably worse — than the image quality from a $600 iPad Air that uses the exact same camera hardware? Let alone comparing it to the front-facing camera on the $430 iPhone SE, which makes the Studio Display camera look like a toy. And we waited years for Apple to ship this display.
+
+Again, it’s usable. All sorts of people use way worse cameras for videoconferencing every day. But this image quality is embarrassing from a company that considers itself the leading camera company in the world. I’m not suggesting the Studio Display camera should match the quality of, say, the new iPhone SE’s rear-facing camera (but then again, why not?). I’m saying I expected the Studio Display camera to match the quality of, at least, the iPhone SE’s front-facing camera. I expected to be impressed by the Studio Display camera. Instead, I’m baffled. I don’t understand how this shipped.
+
+It gets even worse. The Center Stage feature on the Studio Display should be called Off-Center Stage. Move around a bit or turn your head to the side and you get framed off to the side, even though you’re sitting directly in front of the center of the display. It takes up to 5 seconds for Center Stage to catch up and re-center you in the frame, which it does slowly and sheepishly, as though it’s embarrassed. On iPads with Center Stage, it’s like having a cameraperson following you around, reframing the image as you move. On the Studio Display, it’s as though that cameraperson is distracted, paying attention to something else, and then they realize, oops, you — the subject they’re supposed to be following — are framed poorly, and they sheepishly pan the camera to reframe you. Here’s an example screenshot from a FaceTime call:
+
+ Example of poor framing from Center Stage during a FaceTime call.
+
+My face is dead center in front of the Studio Display here, and it took 4–5 seconds for Center Stage to reframe. Note too the deplorable image quality, in what should be nearly ideal lighting conditions.
+
+I don’t really understand why Apple chose to support Center Stage with the Studio Display, and thus use this ultra-wide angle camera, in the first place. Center Stage feels clever and useful on iPads, which are often handheld and often positioned in all sorts of different angles and dynamic positions. But how is that a good choice for the camera on a big desktop display that isn’t intended to move around, and which you tend to sit in front of in a fixed position? Apple’s primary concern for the Studio Display camera should have been generating the best possible image quality for a single person at arm’s length in front of the screen, not Center Stage.
+
+I shared my concerns and some of the above examples with Apple during my testing. Yesterday I was told by an Apple spokesperson that they’ve identified some issues where the Studio Display is not delivering the image quality they expected, and they will be making improvements in future software updates. (I feel like I could have written this paragraph before I even got that call.)
+
+The Off-Center Stage thing is obviously a bug, and I expect that to be fixed. The overall image quality, I’ll bet, can and will be improved to some degree via software updates,1 but I’ll be surprised — happily surprised, but surprised — if a software update can turn this camera into something Apple should be proud of. Maybe, though, given that it’s the same camera hardware as the front-facing camera on the new iPad Air and last year’s iPad Pros. But I’m not holding my breath.
+
+[UPDATE, SEVEN HOURS AFTER PUBLICATION: Maybe I should hold my breath. Multiple little birdies familiar with the Studio Display, each birdie independent of the others, tell me that the image quality problems really are a software problem, not hardware — a bug introduced at the last minute — and a future software update might not merely somewhat improve image quality, but raise it to a level commensurate with the iPad models equipped with the same camera (the new Air and last year’s Pros), modulo the differences between the M1 and A13 ISPs. That would be excellent news, if true. But someone at Apple is having a very bad day today, if true.]
+
+CONCLUSION
+
+The Studio Display doesn’t support ProMotion, but I honestly don’t know if ProMotion is technically feasible over Thunderbolt. Apple started shipping iPads with ProMotion support in 2017, and the 2019 Pro Display XDR — which costs $5000 — doesn’t support it either. What I really wish the Studio Display supported is Face ID. Apple’s biometric authentication story for Macs seems focused solely on Touch ID, so I’m not surprised that it doesn’t. But Touch ID on a desktop requires Apple’s Magic Keyboard, and alas for me, the Apple keyboard I prefer, and on which I’m writing these words, came out a few years before Touch ID was a thing.
+
+Despite the fact that I find the camera crushingly disappointing,2 I’m almost certainly buying a Studio Display for myself. The Pro Display XDR doesn’t have a camera at all, and if the Studio Display didn’t have one either, I’d find that curious (and I’d have complained about it here), but I’d still buy it. And the Studio Display camera is better than having no built-in camera at all — it’s just disappointing.
+
+I spent most of the space in this review discussing and illustrating my disappointment in the camera, but I don’t know how to say more to express my joy with, for example, the audio quality of the speakers and the visual quality of the screen. I’ve been waiting years for Apple to release a good desktop display for under $2000, and in every single regard other than the camera, the Studio Display meets or exceeds my expectations.

@@ -1,0 +1,77 @@
+Oh boy.
+
+Look, people have wanted Apple to sell the 5K display from the now-discontinued 27-inch iMac as a standalone product for years now. When that first 27-inch 5K iMac came out in 2014, the display was so far ahead of the competition that buying one for the screen alone represented a bargain — that there was an entire computer attached to it was almost a bonus.
+
+So now Apple’s gone and discontinued the 27-inch iMac and essentially replaced it with the new Mac Studio and the new 27-inch Studio Display. If the Mac Studio represents the fulfillment of a 20-year-old Mac power user’s dream, the Studio Display should be the fulfillment of a similar dream that’s been around since 2014: just give us the iMac’s 27-inch 5K display.
+
+Unfortunately, a lot of things have happened since 2014. And so far, the Studio Display’s headline webcam feature works so badly that it’s virtually unusable. This dream is a bit of a nightmare.
+
+Good Stuff
+
+The only decent 5K display available on the market
+Excellent mic
+Great speakers
+Bad Stuff
+
+Webcam will make everyone you know sad
+Aging panel tech: no HDR, no local dimming, no variable refresh
+It’s $1,599 and adjusting the height is another $400
+The Studio Display marks Apple’s first entry in the mainstream display market in a long time — the company released the Pro Display XDR in 2020, but its $4,999 price tag meant it was decidedly for professionals. The Studio Display is more accessibly priced at $1,599, which is still expensive, but at least defensible when you consider that the only other 5K display available is the old and finicky LG Ultrafine 5K, which lists for $1,299.
+
+Apple also made some grand promises about the Studio Display’s audio and video capabilities: it has six speakers, three microphones, and a 12-megapixel camera that are all run by an A13 chip — the same sort of front camera and chip you might find in an iPad.
+
+The pitch, at least on paper, is that you get a 5K display that can display macOS at pixel-perfect resolution with no scaling issues, combined with webcam quality that matches Apple’s world-beating iOS devices. Considering the very recent history of miserable Mac webcams that has only just started improving, this is quite a pitch.
+
+We have two Studio Display review units: the standard $1,599 model and the $1,899 model with Apple’s nanotexture matte glass. Both have the stock stand; adding a stand with height adjustment costs another $400 for some reason. You can opt for a VESA mount instead of the stock stand at no extra charge and pair it with whatever stand you want. But you can’t change from the stand to a VESA mount after the fact — you have to decide how you want this display mounted before you click the buy button. It has been a long time since Apple made displays; the company’s approach to display stands and stand pricing reflects that absence from the market, in the sense that it is from a different planet entirely.
+
+ The back of the Apple Studio Display showing its standard tilt-adjustable stand.
+The standard version comes with a tilting stand; for height adjustment, you’ll need to shell out $400 more.
+Apple is generally terrific when it comes to displays across its devices, and the Studio Display is great at the basics: it’s clear, it’s sharp, it’s bright. If you have ever looked at a 27-inch 5K iMac display, you know exactly what this thing looks like. The Studio display is the same 27-inch size, the same 5120x2880 resolution, the same 218 pixels per inch, the same 60Hz refresh rate, and has the same single-zone LED backlight. The only real spec difference is that Apple says the Studio Display now has a “typical brightness” of 600 nits vs. 500 on the iMac, but in my actual typical use next to a 2015-vintage 27-inch iMac, that’s pretty hard to see.
+
+The real issue is that $1,599 is a lot of money, and here, it’s buying you panel tech that is woefully behind the curve. Compared to Apple’s other displays across the Mac, iPhone, and iPad lineup, the Studio Display is actually most notable for the things it doesn’t have.
+
+There are $379 TVs with more advanced local-dimming backlights than this
+Let’s start with the backlight. In general, the best modern displays create true blacks by cutting all the light coming from the black parts of the screen. There are several ways to do this, and Apple itself uses different tech across its high-end products to produce true blacks in various ways: OLED screens on the iPhones, advanced local dimming on the Pro Display XDR, and Mini LED display backlights on the MacBook Pro and iPad Pro.
+
+The Studio Display has… well, it has none of that. It’s a regular old LED backlight that lights the entire screen all the time, and the darkest black it can produce is basically gray. In normal use in a well-lit room, it looks fine enough — LCD displays have looked like this for a long time now — but if you’re watching a movie in a dark room, the letterboxing will look light gray. There are $379 TVs with more advanced local-dimming backlights than this.
+
+ The Mac Studio, Mac Studio Display, keyboard, and mouse seen from the front on a wooden table.
+The Studio Display is effectively the same screen from a 27-inch 5K iMac in new packaging.
+The Studio Display is also notable for being an SDR display, with no HDR modes to speak of. Apple’s high-end iPhones, iPads, and Mac laptops all support HDR, but the Studio Display tops out at 600 nits, and Apple doesn’t offer an HDR mode in the software at all. Again, this comes back to the ancient backlight tech: true HDR requires local dimming, and the Studio Display doesn’t have it.
+
+ 
+The Studio Display’s lack of local dimming is very apparent in this comparison next to the Pro Display XDR.
+The Studio Display also only offers a 60Hz refresh rate, which is both bog-standard and also woefully behind Apple’s other top-tier products like the iPhone 13 Pro, iPad Pro, and MacBook Pro, all of which offer the ProMotion variable refresh rate system that can run as high as 120Hz for smooth scrolling and gaming and as low as 24Hz for movies. (The iPhone 13 Pro can even drop to as low as 10Hz to save battery life.) 60Hz is totally fine for most displays, but this thing costs $1,599. There are a lot of less expensive displays with variable refresh rate and HDR tech out there, and they’re supported by macOS out of the box.
+
+Really the only reason to chase after this display for the screen itself is if you desperately care about having a 5K display that can display MacOS at pixel-perfect resolution with no scaling. I don’t want to discount this: a lot of people care about that a lot, and for those folks, $1,599 sounds totally reasonable considering that the only other 5K option on the market is that buggy LG UltraFine.
+
+For those of you that don’t care about pixel-perfect macOS with no scaling, $1,599 will sound frankly ridiculous, and there are lots of other fascinating displays to think about, including a number of OLEDs, some neat ultrawides, and plenty of displays that support higher refresh rates.
+
+ 
+The Studio Display has what Apple claims is an iPad-level camera, powered by the A13 processor.
+ Apple Studio Display webcam screenshot
+I’m sitting in front of a window. The webcam is just not very good, y’all.
+The other reasons you might be thinking about spending $1,599 on the Studio Display are the webcam, mic, and speakers, of which Apple is very proud. There’s an entire A13 Bionic chip powering the audio and camera system here, same as the iPhone 11, and the camera itself is a 12-megapixel sensor with an f/2.4 lens that’s theoretically comparable to the front camera on an iPhone or iPad. There are three mics and six speakers: four woofers and two tweeters, which Apple says can support spatial audio.
+
+Let’s start with the good stuff: the mic and speakers sound great. Really, really great. You can adjust the three-mic array to do voice isolation or not in Control Center, and you’ll sound as good or better on calls as any conference mics I’ve ever heard. The only reason you might need something better is if you’re regularly recording podcasts or streaming to an audience. The speakers are loud and deep, and while I am not entirely convinced that spatial audio in music is anything but a gimmick and even less convinced that anything like “spatial” audio can be produced by a stereo speaker system located in front of you, Apple is certainly processing its heart out here — if you play an Atmos clip, you’ll hear some dramatic swooshing about, which is always fun. These are the best built-in speakers I’ve ever heard.
+
+The bad part is that I have no idea what’s going on with this webcam. Apple has a long history of producing amazing images with 12-megapixel sensors and A-series chips, and for some reason, this thing just looks awful.
+
+The webcam looks awful in good light and downright miserable in low light
+Actually, it looks awful in good light and downright miserable in low light. I’ve tried it connected to the Mac Studio and on my MacBook Pro running macOS 12.3, and on both machines, it produces a grainy, noisy image with virtually no detail. I tried it in FaceTime, in Zoom, in Photo Booth, in QuickTime — you name it, it’s the same sad image quality. Turning off the Center Stage feature that follows you around the room doesn’t help. Turning portrait mode on and off doesn’t help.
+
+I have sent Apple countless screenshots in various lighting conditions and a full sysdiagnose of our Mac Studio and Studio Display review units, and at publish time, all Apple spokesperson Jennie Orphanopoulos could tell me was that Apple’s team had “looked into the images you shared, and discovered an issue where the system is not behaving as expected. We’ll be making improvements in a software update.”
+
+There’s no timeline on that update, nor any details on what it might improve.
+
+ Apple Studio Display webcam screenshot in a studio, wearing a mask
+On the plus side, this is the smoothest my skin has looked in years.
+Our rule has always been to review products based on what we have in front of us and never against the promise of a future software update, and based on what I have in front of me, I simply wouldn’t want to use this camera. The cameras on the new MacBook Pro and M1 iMac are far superior to what we’re seeing here, and an iPhone front camera is even better still. I’m hopeful Apple will improve things via software in the future, but I would not spend $1,599 on this display until that actually happens.
+
+ The Mac Studio and Studio Display seen from above with a mouse and keyboard on a wooden table. 
+If you care about pixel perfect scaling in macOS, the Studio Display is your best option. For everyone else, there are many other monitors to buy.
+Some other things worth briefly touching on: the $300 nanotexture option smudges easily and is hard to clean, but there are people on the Verge team like our video director Becca Farsace who absolutely love it. It’s one of those things that you probably already know if you need it because it’s decidedly for professional users with demanding color applications.
+
+The Studio Display comes with a nice braided Thunderbolt 4 cable in the box; that same cable can deliver 96W of power to a laptop, enough to charge my 16-inch MacBook Pro. That cable connects to the Thunderbolt 4 port on the rear of the display; there are three USB-C ports next to it for peripherals. Ports! People like ‘em.
+
+It’s rare that an Apple product is such a miss, but the Studio Display in its current state is a confounding miss. If the webcam actually delivered on the promise of iPhone- or iPad-quality video, it would at least prompt a reasonable debate about whether having local dimming or HDR or variable refresh rate was worth it, but as it stands, you’re getting a less-than-state-of-the-art display and a bad webcam. If you are adamant about having a 5K display connected to your Mac, it might still be the best option. If not, I think you are much better off looking elsewhere.
