@@ -167,62 +167,64 @@ print("""Welcome to
    / __ \____ ______/ /_/ /_     | |  / /___ _____/ /__  _____
   / / / / __ `/ ___/ __/ __ \    | | / / __ `/ __  / _ \/ ___/
  / /_/ / /_/ / /  / /_/ / / /    | |/ / /_/ / /_/ /  __/ /    
-/_____/\__,_/_/   \__/_/ /_/     |___/\__,_/\__,_/\___/_/     
-
+/_____/\__,_/_/   \__/_/ /_/     |___/\__,_/\__,_/\___/_/     """)
+while True:
+    print("""
 What would you like to do?
 [1] Analyize a topic
 [2] Analyze tweet replies
-[3] Analyze arbitrary text""")
-mode = str(input('=> '))
+[3] Analyze arbitrary text
+[0] Exit""")
+    mode = str(input('=> '))
 
-if mode=='1':
-    topic = '"'+input('Enter a topic to analyze: ').strip()+'"'
-    num_p = input('How many parent tweets to get? (10-100, default=10) ')
-    num_p = num_p if num_p else 10
-    num_r = input('How many reply tweets to get? (10-100, default=0) ')
-    num_r = num_r if num_r else 0
+    if mode=='1':
+        topic = '"'+input('Enter a topic to analyze: ').strip()+'"'
+        num_p = input('How many parent tweets to get? (10-100, default=10) ')
+        num_p = num_p if num_p else 10
+        num_r = input('How many reply tweets to get? (10-100, default=0) ')
+        num_r = num_r if num_r else 0
 
-    print('Analyzing topic...')
-    snt = analyze_topic(topic, bearer_token, num_replies=num_r, num_parents=num_p)
-elif mode=='2':
-    match = None
-    while not match:
-        parent = input('Enter URL of parent tweet: ')
-        match = re.match(r'(?:https?:\/\/)?(?:www.)?twitter.com/[^/]*/status/([0-9]*)', parent)
-        if not match:
-            print('Error: Not a valid tweet URL')
-    conversation_id = match.group(1)
-    num_r = input('How many reply tweets to get? (10-100, default=10) ')
-    num_r = num_r if num_r else 10
+        print('Analyzing topic...')
+        snt = analyze_topic(topic, bearer_token, num_replies=num_r, num_parents=num_p)
+    elif mode=='2':
+        match = None
+        while not match:
+            parent = input('Enter URL of parent tweet: ')
+            match = re.match(r'(?:https?:\/\/)?(?:www.)?twitter.com/[^/]*/status/([0-9]*)', parent)
+            if not match:
+                print('Error: Not a valid tweet URL')
+        conversation_id = match.group(1)
+        num_r = input('How many reply tweets to get? (10-100, default=10) ')
+        num_r = num_r if num_r else 10
 
-    print('Analyzing replies...')
-    tweets = get_replies(conversation_id, bearer_token, num_r)
-    if tweets:
-        sentiments = []
-        for tweet in tweets['data']:
-            if tweet['public_metrics']['like_count'] >= 1:
-                s = sentiment(tweet['text'])
-                if s:
-                    sentiments.append(
-                            {
-                                'sentiment': s,
-                                'weight': 1 + tweet['public_metrics']['retweet_count'] + tweet['public_metrics']['quote_count'] + tweet['public_metrics']['like_count']
-                            }
-                        )
-        snt = numpy.average(
-            [item['sentiment'] for item in sentiments],
-            weights = [item['weight'] for item in sentiments]
-        )
+        print('Analyzing replies...')
+        tweets = get_replies(conversation_id, bearer_token, num_r)
+        if tweets:
+            sentiments = []
+            for tweet in tweets['data']:
+                if tweet['public_metrics']['like_count'] >= 1:
+                    s = sentiment(tweet['text'])
+                    if s:
+                        sentiments.append(
+                                {
+                                    'sentiment': s,
+                                    'weight': 1 + tweet['public_metrics']['retweet_count'] + tweet['public_metrics']['quote_count'] + tweet['public_metrics']['like_count']
+                                }
+                            )
+            snt = numpy.average(
+                [item['sentiment'] for item in sentiments],
+                weights = [item['weight'] for item in sentiments]
+            )
+        else:
+            continue
+    elif mode=='3':
+        filename = input('Enter path to file: ')
+        with open(filename) as file:
+            text = file.read()
+        doc = nlp(text)
+        snt = numpy.average([sentiment(str(s)) for s in doc.sents])
     else:
-        exit()
-elif mode=='3':
-    filename = input('Enter path to file: ')
-    with open(filename) as file:
-        text = file.read()
-    doc = nlp(text)
-    snt = numpy.average([sentiment(str(s)) for s in doc.sents])
-else:
-    exit()
+        break
 
-print('Done! Found overall ' + sentiment_to_sentence(snt) + ' sentiment (' + str(numpy.round(snt, 4))+')')
-print(sentiment_to_line(snt))
+    print('Done! Found overall ' + sentiment_to_sentence(snt) + ' sentiment (' + str(numpy.round(snt, 4))+')')
+    print(sentiment_to_line(snt))
