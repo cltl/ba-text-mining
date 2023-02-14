@@ -1,252 +1,252 @@
 {
     "1": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "Very happy to score my first goal with the blues. Come on!! Next round @ChelseaFC @EmiratesFACup",
+        "tweet_url": "https://twitter.com/saulniguez/status/1499135951003697156"
     },
     "2": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Kim Kardashian has officially been granted her request to be legally single, restoring her maiden name and dropping West.",
+        "tweet_url": "https://twitter.com/i/topics/1095352268046495745"
     },
     "3": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "No one has an hour to listen to it",
+        "tweet_url": "https://twitter.com/Ievitatingg/status/1499102665128747017"
     },
     "4": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "I hope Kim and Pete use this in court to get restraining orders against Kanye.",
+        "tweet_url": "https://twitter.com/Lanalbb/status/1499124738999959553"
     },
     "5": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "Grateful for everything that’s missed me . I know it wasn’t for me",
+        "tweet_url": "https://twitter.com/sza/status/1499115352260706308"
     },
     "6": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "@LettyA ahh ive always wanted to see rent :( love the soundtrack!!",
+        "tweet_url": "https://twitter.com/starkissed/status/1467813579"
     },
     "7": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "@Viennah Yay! I'm happy for you with your job! But that also means less time for me and you...",
+        "tweet_url": "https://twitter.com/antzpantz/status/1467819650"
     },
     "8": {
         "sentiment_label": "",
         "text_of_tweet": "",
-        "tweet_url": ""
+        "tweet_url": "https://twitter.com/anjaaminki/status/1468161209"
     },
     "9": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
+        "sentiment_label": "negative",
+        "text_of_tweet": "i don't wanna go to work i wanna go to bed!",
         "tweet_url": ""
     },
     "10": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "I just made the prettiest latte! I even used the milk steamer and put a dollop of foam on top, and sprinkled cinnamon/sugar on it! ",
+        "tweet_url": "https://twitter.com/stephoodle/status/1551681354"
     },
     "11": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "listening to some songs from the Punk goes Pop 2 album.  awesome! haha!",
+        "tweet_url": "https://twitter.com/heypatmarie/status/1551744472"
     },
     "12": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "On this day, 12 years ago: Lady Gaga performs 'Telephone' and 'Brown Eyes' on Friday Night With Jonathan Ross.",
+        "tweet_url": "https://twitter.com/ThrowbacksGaga/status/1499308610819608577"
     },
     "13": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "I am microbiologist and I eat raw cookie dough",
+        "tweet_url": "https://twitter.com/sciliz/status/1498814095038029825"
     },
     "14": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "now what if labrinth and zendaya are secretly working on an album or EP together... thinking",
+        "tweet_url": "https://twitter.com/thedayacure/status/1499076393136791554"
     },
     "15": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "It’s so fucking awkward that CNN will cut from an interview with a Ukrainian family that has had their home bombed and lost everything to a commercial with upbeat music for fucking Applebees so quickly.",
+        "tweet_url": "https://twitter.com/IWDominateLoL/status/1496885266468028418?s=20&t=M1CKJCli-wxv8xWAZOLwPQ"
     },
     "16": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "Reasons to hate are remembered better than reasons to love",
+        "tweet_url": "https://twitter.com/elonmusk/status/1494400631712501764?s=20&t=UxsWf65IRVtxt7_TMVbTqw"
     },
     "17": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "So amazing that we decompress from a single cell to over 30 trillion cells",
+        "tweet_url": "https://twitter.com/elonmusk/status/1494821520815779843?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "18": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "Yoooo! What a dream that would be… @Labrinth ???",
+        "tweet_url": "https://twitter.com/Zendaya/status/1498477238676639744?s=20&t=evwQi_cNzevlZyDZknQmyw"
     },
     "19": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Additionally, new tickets have been added for certain cities on the tour! Tickets are available now at http://billieeilish.com/tour",
+        "tweet_url": "https://twitter.com/billieeilish/status/1491546831611781120?s=20&t=zlWsVPBlRuk9T2qwAYxA8w"
     },
     "20": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "It's hard to beat a person who never gives up. ~ Babe Ruth #quotes #success #startup",
+        "tweet_url": "https://twitter.com/exceptionalfood/status/1499493315296862216?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "21": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "It just hit me that one of my oldest and closest (or so I thought) friend, who has my number wished me a happy birthday on twitter...wow, so personal. Feel so loved!",
+        "tweet_url": "https://twitter.com/brwngrls_diary/status/1499493859042242564?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "22": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "shoutout to the annoying kid in eighth grade who wouldn’t stop talking about demons souls he’s probably so happy now",
+        "tweet_url": "https://twitter.com/onlineicon01/status/1499493845041561602?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "23": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "IKEA charging £40 for delivery is VERY VERY crazy.",
+        "tweet_url": "https://twitter.com/iAmCroe/status/1499357461630926852?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "24": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "who plays fifa I need a fifa buddy",
+        "tweet_url": "https://twitter.com/n4sserrr/status/1499496057042055174?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "25": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "5 Million hectares of forest is lost to deforestation a year. Beef is responsible for 41% of global deforestation. Deforestation contributes about 4.8 Billion tonnes of Carbon Dioxide a year, turning the Amazon Rainforest into a carbon source. #ClimateCrisis #CIimateEmergency.",
+        "tweet_url": "https://twitter.com/KaraJarina/status/1499419995469762570?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "26": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "These stories are rampant in warehouses, from Best Buy to UPS to Amazon. These companies push workers to injury, fight them through workers comp to get medical care, then trash them entirely when they're disabled.",
+        "tweet_url": "https://twitter.com/SarafromMI/status/1499470934889095169?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "27": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "Im goin on a mf trip. Who's with me?",
+        "tweet_url": "https://twitter.com/SpacePa21927768/status/1499422158501691392?s=20&t=Jh2P0cAsEWRoT9DT-5o_9A"
     },
     "28": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "alex karev left us 2 years ago today",
+        "tweet_url": "https://twitter.com/swiftsmer/status/1500189717983375360"
     },
     "29": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "today marks two years since the writers ruined alex karev's character and dumped jo wilson for a letter. i’ll never really forgive them",
+        "tweet_url": "https://twitter.com/iANIST0N/status/1500178119956828161?s=20&t=OvQNlp7CqErI33W7meNpnw"
     },
     "30": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "Yeah we keep on winning everyday!",
+        "tweet_url": "https://twitter.com/MermaidMe4/status/1500282758253346817?s=20&t=54v1p-o8wNPOseaRdxM8Gg"
     },
     "31": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "Too many damn commercials. #48hours #whatallykostialdidntknow",
+        "tweet_url": "https://twitter.com/brandon_orgeron/status/1500312637346914316?s=20&t=JarPJO2coTIilE4FD_Rfhg"
     },
     "32": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "oh jeez this guy has the playbook for being a gaslighting jackhole #48Hours",
+        "tweet_url": "https://twitter.com/flutiefan/status/1500313070652071939?s=20&t=JarPJO2coTIilE4FD_Rfhg"
     },
     "33": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "what are good cat food brands? or like wet food or treats?",
+        "tweet_url": "https://twitter.com/bigfootjinx/status/1500196301778001921?s=20&t=G2Eq8kqCFxruhzcnUoMFbw"
     },
     "34": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "everyone say good morning jinx",
+        "tweet_url": "https://twitter.com/bigfootjinx/status/1499832101138419718?s=20&t=G2Eq8kqCFxruhzcnUoMFbw"
     },
     "35": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "she said NO!!!",
+        "tweet_url": "https://twitter.com/bigfootjinx/status/1499835404387708928?s=20&t=G2Eq8kqCFxruhzcnUoMFbw"
     },
     "36": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "she’s just a little guy who’s just here to vibe",
+        "text_of_tweet": "neutral",
+        "tweet_url": "https://twitter.com/bigfootjinx/status/1499121832133201920?s=20&t=G2Eq8kqCFxruhzcnUoMFbw"
     },
     "37": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Pépito is back home (20:52:07)",
+        "tweet_url": "https://twitter.com/PepitoTheCat/status/1468307355649589250?s=20&t=04zp-JS5SI9x_azDLa0FIg"
     },
     "38": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "Man. Steph Curry is just so much better at shooting than the rest of the world it's unfair",
+        "tweet_url": "https://twitter.com/MKBHD/status/1495598546799706112?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "39": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Free video idea: Curling robot does the same slide with vs without the sweepers. To show how much of a difference the sweeping ACTUALLY makes.",
+        "tweet_url": "https://twitter.com/MKBHD/status/1495580338659147779?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "40": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "I've lost track of how many times I've watched Planet Earth and Blue Planet. They're still incredible. Every time.",
+        "tweet_url": "https://twitter.com/MKBHD/status/1492896729687109639?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "41": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "bella hadid stays using her platform correctly. love to see it",
+        "tweet_url": "https://twitter.com/itsnotnabiha/status/1500298294957903872?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "42": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "i’m sorry but after harry’s recent stalker incidents it is really weird to actively search out his venmo… people really have no sense of privacy on here",
+        "tweet_url": "https://twitter.com/filmrry/status/1500144478937567233?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "43": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "Visa & Mastercard had no problem servicing Epstein and his kid fucking clients.",
+        "tweet_url": "https://twitter.com/SaltyCracker9/status/1500275075022344194?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "44": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "negative",
+        "text_of_tweet": "My grandma had Parkinson’s. This looks familiar unfortunately. Can’t believe he’s not stepping down. He needs help.",
+        "tweet_url": "https://twitter.com/RobertaByTheSea/status/1500251346443853824?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "45": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "This is what Texas is all about! Best fan base in the nation!!!",
+        "tweet_url": "https://twitter.com/AGENT0__/status/1500220404052471818?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "46": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "What a crowd for #1 Texas vs. #3 LSU (via @BarstoolMintzy)",
+        "tweet_url": "https://twitter.com/BaseballBros/status/1500283697219653634?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "47": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "You Beto believe Texas is ready for change!",
+        "tweet_url": "https://twitter.com/TeamBeto/status/1500274585538682884?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "48": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "The first poster for The Texas Chainsaw Massacre 2022 movie is still fucking amazing, regardless of the movie quality.",
+        "tweet_url": "https://twitter.com/Struggler2Dark/status/1500269361642323968?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "49": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "BRON BRON GOING CRAZY!!!!",
+        "tweet_url": "https://twitter.com/NoLifeShaq/status/1500316127918006277?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     },
     "50": {
-        "sentiment_label": "",
-        "text_of_tweet": "",
-        "tweet_url": ""
+        "sentiment_label": "positive",
+        "text_of_tweet": "NAH BRUH THIS ONE OF THE CRAZIEST THINGS IGE EVER SEEN BRON IS THE GOAT",
+        "tweet_url": "https://twitter.com/6ixLeBron/status/1500316241399058434?s=20&t=ohhIQA6qGcdblYvf2dpfRw"
     }
 }
