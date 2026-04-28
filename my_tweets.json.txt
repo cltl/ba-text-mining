@@ -1,0 +1,252 @@
+{
+    "1": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "THIS EXACTLY, I’m tired of seeing so many negative Nancie’s acting like we don’t have more picks in the draft, like get your panties out of the twist they’re in",
+        "tweet_url": "https://x.com/wolverinequeen0/status/2047670187038511517"
+    },
+    "2": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "He earned every bit of it man, you’re so reliable because you stayed positive. Big up",
+        "tweet_url": "https://x.com/kidd10x/status/2047670032075763820"
+    },
+    "3": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "We are so sorry to hear this. Sending all my love and positive vibes to you and your family.",
+        "tweet_url": "https://x.com/HounddogZenith/status/2047670175751692359"
+    },
+    "4": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "There's no way this guy wrote the Invincible comic and Walking dead, like how is he so dumb",
+        "tweet_url": "https://x.com/volgaw1zza/status/2047338305973280975"
+    },
+    "5": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "uni has been the loneliest experience of my life",
+        "tweet_url": "https://x.com/steiinsgate/status/2047476959786013030"
+    },
+    "6": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "I hate Reddit.",
+        "tweet_url": "https://x.com/VimmsLair/status/2047392832357351778"
+    },
+    "7": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "I excused my daughter’s absence from school today, but it was denied. How are you going to tell me, the parent, that the reason I allowed my child to stay home isn’t accepted?",
+        "tweet_url": "https://x.com/Charlygotyou/status/2047315487449612748"
+    },
+    "8": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "there is a kid at a neighbouring school called sid seven. wish him the best, last year mustve been hell",
+        "tweet_url": "https://x.com/chocsise/status/2047498523365789773"
+    },
+    "9": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "If the person you’re duoing with has to get on an alt to duo with you, it’s boosting",
+        "tweet_url": "https://x.com/boomsizzlex/status/2047342902339096907"
+    },
+    "10": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "trump should shut up already, damn",
+        "tweet_url": "https://x.com/Hideki_Naganuma/status/2047355373540278666"
+    },
+    "11": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "i hate seeing genuinely good character design talent wasted on roblox games",
+        "tweet_url": "https://x.com/KeebyAstrokat/status/2047575418622869619"
+    },
+    "12": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Trump announces he is considering expelling Spain from NATO. NATO has to remind him he has no authority to expel any nation.",
+        "tweet_url": "https://x.com/archer_rs/status/2047589049343340902"
+    },
+    "13": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "My feed is full of posts about scientists being killed over the last few weeks because they’re connected to nuclear fusion. Is there any legitimate reporting on this? Or did my algorithim just find an odd section of Twitter?",
+        "tweet_url": "https://x.com/designmom/status/2047399336804249617"
+    },
+    "14": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "You ever be at work and realise the job isn't even hard, it’s actually the people who make it exhausting??",
+        "tweet_url": "https://x.com/omgsidewalks/status/2047359761641886021"
+    },
+    "15": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "i’m so glad i went into project hail mary blind i hadn’t even seen a trailer or read a plot synopsis i was just bored as fuck and wanted to go to the movies and that shit changed my life",
+        "tweet_url": "https://x.com/goldmedalpj/status/2047335855660974558"
+    },
+    "16": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "i saw the trailer and thought the movie would be dramatic and boring asf but my friend made me go and it was the best thing that happened to me recently",
+        "tweet_url": "https://x.com/fluorescencyjne/status/2047625363522453889"
+    },
+    "17": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "WHY AM I SO FAR BEHIND EVERYONE MY AGE?? WHY IS IT SO HARD FOR ME TO DO THE SAME THINGS AS EVERYONE ELSE ??WHY CANT I JUST BE NORMAL AND NOT STRUGGLE OR BE SCARED OF EVERYTHING",
+        "tweet_url": "https://x.com/lisaawrites/status/2047344082645844091"
+    },
+    "18": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "college students using Ai is so fucked because it’s actively making kids dumber while also charging them a lifetime’s worth of debt to train an Ai for free.",
+        "tweet_url": "https://x.com/missmayn/status/2047476651739738311"
+    },
+    "19": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "if you watch streamers you’re subhuman to me",
+        "tweet_url": "https://x.com/virtuallyself/status/2047366433827324194"
+    },
+    "20": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "Nyc has taught me that if you only just ask you will receive",
+        "tweet_url": "https://x.com/justsmbdyithink/status/2047328716779336011"
+    },
+    "21": { 
+        "sentiment_label": "positive",
+        "text_of_tweet": "Previous scholars have argued that it is so over. In this paper, however, I posit that we are so back",
+        "tweet_url": "https://x.com/John_Attridge/status/2047417021143675168"
+    },
+    "22": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "I'm not trying to brag here, but Claude just called my idea fascinating.",
+        "tweet_url": "https://x.com/ProfRobAnderson/status/2047318359914549502"
+    },
+    "23": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "california is the only state where you can take a real vacation without having to leave the state",
+        "tweet_url": "https://x.com/chemdawgrei/status/2047332967480283161"
+    },
+    "24": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "Finally...a nice post today, from a nice person!",
+        "tweet_url": "https://x.com/realLeslieLesh/status/2047501841794293954"
+    },
+    "25": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "People in wisconsin only vacation in wisconsin",
+        "tweet_url": "https://x.com/DaveLineal/status/2047675696642756870"
+    },
+    "26": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "hungry jacks is better than maccas and its not even close bro sorry",
+        "tweet_url": "https://x.com/maddimogs/status/2047461235772572013"
+    },
+    "27": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "First time in Norway. Everyone speaks norwegian here. Cool.",
+        "tweet_url": "https://x.com/interjace/status/2047423182773068045"
+    },
+    "28": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "The scariest part about having a job is that no job is permanent. You can work somewhere for years and still get fired for no reason. It's wild.",
+        "tweet_url": "https://x.com/OrevaZSN/status/2047651802808508580"
+    },
+    "29": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "This is genuinely the saddest shit I’ve seen in a while",
+        "tweet_url": "https://x.com/Jasp3r_0/status/2047791517687832638"
+    },
+    "30": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "the most dangerous person in tech is a broke 19 year old with claude code and no social life",
+        "tweet_url": "https://x.com/mal_shaik/status/2047734036261671120"
+    },
+    "31": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Jynxzi announces he’ll be playing League of Legends for the very first time this Sunday coached by Tyler1, in an attempt to climb out of Iron the lowest rank people said I'm going to quit the game in an hour.. If I apply every part of my braincells I can conquer that game",
+        "tweet_url": "https://x.com/yoxics/status/2047756822854213698"
+    },
+    "32": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "why everyone wants to go to japan let's go to bosnia",
+        "tweet_url": "https://x.com/yiboego/status/2047691442500272284"
+    },
+    "33": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "A CHAD might mog, But when the JESTER performs Even the KING sits to listen.",
+        "tweet_url": "https://x.com/rystar222/status/2047538000993661377"
+    },
+    "34": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "you gotta die",
+        "tweet_url": "https://x.com/limit_val/status/2047765375627169866"
+    },
+    "35": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "I hate what capitalism did to fighting games.",
+        "tweet_url": "https://x.com/Arbiter_W/status/2047687151685345335"
+    },
+    "36": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "Thank you so much @Luminosity for helping me getting my account back. Feels good to tweet here after so long…didnt think i was gonna get it back",
+        "tweet_url": "https://x.com/Mkleosb/status/2047854701765378372"
+    },
+    "37": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "Why is there no competitor to LinkedIn? - It's slow - It's full of AI slop - It actively encourages people to write AI slop- It's slow - The timeline is awful - It's slow There is clearly a market for a professional social network. I would jump in a second.",
+        "tweet_url": "https://x.com/LewisCTech/status/2047564882636353737"
+    },
+    "38": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "I still don’t get the concept behind life. What exactly are we here for??",
+        "tweet_url": "https://x.com/Dearme2_/status/2047696903249248557"
+    },
+    "39": {
+        "sentiment_label": "potitive",
+        "text_of_tweet": "are there actually ppl who think tomodachi life is boring????? i feel like there's ALWAYS things to do though? i could spend the entire day just playing this game lol",
+        "tweet_url": "https://x.com/Pockicchi/status/2047836317208252701"
+    },
+    "40": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "I absolutely love it tbh!! I get so sucked in and then I blink and 3 hours have passed",
+        "tweet_url": "https://x.com/BlueKiyoshi/status/2047849729002758460"
+    },
+    "41": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "What if I told you there is physics behind luck",
+        "tweet_url": "https://x.com/ProofofMaro/status/2047679857958564208"
+    },
+    "42": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "People who skip cutscenes/dialogue in their first playthrough of a video game  are dangerous and must be stopped at all costs.",
+        "tweet_url": "https://x.com/Arron_TK/status/2047729491095519478"
+    },
+    "43": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "I care about my grades but if I'm tired l'm going to sleep idc",
+        "tweet_url": "https://x.com/softboywin/status/2047585524907422166"
+    },
+    "44": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "Is 'Kenny' a nickname for Kenjaku in the English-speaking fandom?So cute",
+        "tweet_url": "https://x.com/norikuro142180/status/2047693069714399492"
+    },
+    "45": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "Canadians are like I’m gonna go use the washroom",
+        "tweet_url": "https://x.com/Hyeyunie/status/2047700052605583543"
+    },
+    "46": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "How the fuck am I supposed to get a job if they ask for at least 1-2 years of work experience. I'M FRESH OUT OF COLLEGE how am I supposed to have experience if they won't give me a damn chance",
+        "tweet_url": "https://x.com/jiminiiMf/status/2047529967248953524    "
+    },
+    "47": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "I'd rather drink the water from a tin of tuna than be asked to share a fun fact about myself as an icebreaker during a team building activity at work.",
+        "tweet_url": "https://x.com/mistressdivy/status/2047743492609225007"
+    },
+    "48": {
+        "sentiment_label": "neutral",
+        "text_of_tweet": "a man who waits for the perfect shot will die with a full mag",
+        "tweet_url": "https://x.com/alexeixbt/status/2047650268091687283"
+    },
+    "49": {
+        "sentiment_label": "negative",
+        "text_of_tweet": "I can't respect people who consume content made with AI like those fruit stories, what the hell are they even watching? Completely lobotomized.",
+        "tweet_url": "https://x.com/yilisus/status/2047692056076616044"
+    },
+    "50": {
+        "sentiment_label": "positive",
+        "text_of_tweet": "We love our Pope",
+        "tweet_url": "https://x.com/Pigeontrace/status/2047870237929070907"
+    }
+}
